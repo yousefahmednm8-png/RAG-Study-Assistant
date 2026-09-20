@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-study-assistant"
+version = "0.1.0"
+description = "A modular RAG-based study assistant"
+requires-python = ">=3.10"
+
+dependencies = [
+    "faiss-cpu",
+    "numpy",
+    "pypdf",
+    "rank-bm25",
+    "requests",
+    "sentence-transformers",
+    "streamlit",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
