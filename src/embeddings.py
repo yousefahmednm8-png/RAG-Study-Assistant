@@ -3,9 +3,9 @@ from sentence_transformers import SentenceTransformer
 
 class EmbeddingModel:
 
-    def __init__(self, model_name: str):
+    def __init__(self, model_name: str, device: str | None = None):
         self.model_name = model_name
-        self.model = SentenceTransformer(model_name)
+        self.model = SentenceTransformer(model_name, device=device)
 
     def encode_documents(
         self,

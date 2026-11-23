@@ -1,9 +1,7 @@
-import json
 from pathlib import Path
 
-from src.vector_store import VectorStore
 from src.embeddings import EmbeddingModel
-
+from src.vector_store import VectorStore
 
 EMBEDDING_MODEL = "intfloat/multilingual-e5-base"
 

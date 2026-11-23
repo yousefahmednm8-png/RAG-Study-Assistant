@@ -1,0 +1,272 @@
+[
+  {
+    "id": "gen_001",
+    "question": "What is force, and what causes it to exist?",
+    "reference_answer": "Force is a push or pull that can change or attempt to change an object's state of rest, motion, direction, or shape. It exists because objects interact.",
+    "question_type": "fact",
+    "source_pages": [4],
+    "source_chunk_ids": ["doc-2_page_4_chunk_0", "doc-2_page_4_chunk_1", "doc-2_page_4_chunk_2"],
+    "evaluation_criteria": ["Defines force as a push or pull/action", "Connects force to interaction between objects", "Does not add unsupported claims"]
+  },
+  {
+    "id": "gen_002",
+    "question": "List four effects a force can have on a body.",
+    "reference_answer": "A force can start a body moving, stop or slow a moving body, increase its speed, or change its direction, shape, or size.",
+    "question_type": "multi_part",
+    "source_pages": [4],
+    "source_chunk_ids": ["doc-2_page_4_chunk_2"],
+    "evaluation_criteria": ["Mentions at least four effects from the text", "Does not confuse force effects with force types"]
+  },
+  {
+    "id": "gen_003",
+    "question": "What is the difference between contact and non-contact forces? Give examples of each.",
+    "reference_answer": "Contact forces act when objects physically touch, such as friction, tension, normal force, air resistance, applied force, and spring force. Non-contact forces act without physical contact, such as gravitational, electrical, and magnetic forces.",
+    "question_type": "compare",
+    "source_pages": [4],
+    "source_chunk_ids": ["doc-2_page_4_chunk_3", "doc-2_page_4_chunk_4"],
+    "evaluation_criteria": ["Explains physical contact distinction correctly", "Gives at least two valid examples per category"]
+  },
+  {
+    "id": "gen_004",
+    "question": "What is the equation relating force, mass, and acceleration, and what does it tell us?",
+    "reference_answer": "The equation is F = ma. The resultant force equals an object's mass multiplied by its acceleration.",
+    "question_type": "fact",
+    "source_pages": [5],
+    "source_chunk_ids": ["doc-2_page_5_chunk_1"],
+    "evaluation_criteria": ["States F = ma", "Identifies F as force, m as mass, and a as acceleration"]
+  },
+  {
+    "id": "gen_005",
+    "question": "Why is force described as a vector, and what is its SI unit?",
+    "reference_answer": "Force is a vector because it has both magnitude and direction. Its SI unit is the newton (N), equivalent to kg·m/s².",
+    "question_type": "multi_part",
+    "source_pages": [5],
+    "source_chunk_ids": ["doc-2_page_5_chunk_1", "doc-2_page_5_chunk_2"],
+    "evaluation_criteria": ["Mentions magnitude and direction", "Identifies newton", "Gives kg·m/s² equivalence"]
+  },
+  {
+    "id": "gen_006",
+    "question": "What is gravity, and how does it change with mass and distance?",
+    "reference_answer": "Gravity is an attractive force between objects with mass. More massive objects have stronger gravitational attraction, and gravity becomes weaker as distance increases.",
+    "question_type": "multi_part",
+    "source_pages": [6],
+    "source_chunk_ids": ["doc-2_page_6_chunk_0", "doc-2_page_6_chunk_1"],
+    "evaluation_criteria": ["Defines gravity as attraction", "Says it increases with mass", "Says it weakens as distance increases"]
+  },
+  {
+    "id": "gen_007",
+    "question": "How is gravitational force between two bodies related to their masses and separation?",
+    "reference_answer": "Gravitational force is proportional to the product of the two masses and inversely proportional to the square of the distance between their centers: F = G m1 m2 / r².",
+    "question_type": "fact",
+    "source_pages": [6],
+    "source_chunk_ids": ["doc-2_page_6_chunk_3"],
+    "evaluation_criteria": ["Correct proportionality to both masses", "Correct inverse-square dependence on distance", "Correct formula"]
+  },
+  {
+    "id": "gen_008",
+    "question": "What is the gravitational constant G and what value is given in the guide?",
+    "reference_answer": "G is the universal gravitational constant, given as 6.67 × 10⁻¹¹ N·m²/kg².",
+    "question_type": "fact",
+    "source_pages": [6],
+    "source_chunk_ids": ["doc-2_page_6_chunk_3"],
+    "evaluation_criteria": ["Identifies G as the universal gravitational constant", "Gives the stated value and units accurately"]
+  },
+  {
+    "id": "gen_009",
+    "question": "Are the gravitational forces two bodies exert on each other equal or different?",
+    "reference_answer": "They are equal in magnitude and opposite in direction; each body attracts the other with the same force.",
+    "question_type": "fact",
+    "source_pages": [6],
+    "source_chunk_ids": ["doc-2_page_6_chunk_4"],
+    "evaluation_criteria": ["States equal magnitude", "States opposite directions or mutual attraction"]
+  },
+  {
+    "id": "gen_010",
+    "question": "Give three applications of the universal law of gravitation mentioned in the guide.",
+    "reference_answer": "It helps explain the motion of planets around the Sun, the motion of the Moon or satellites around Earth, and the motion of freely falling bodies.",
+    "question_type": "multi_part",
+    "source_pages": [7],
+    "source_chunk_ids": ["doc-2_page_7_chunk_0", "doc-2_page_7_chunk_1"],
+    "evaluation_criteria": ["Lists three applications supported by the guide"]
+  },
+  {
+    "id": "gen_011",
+    "question": "What happens to an object's velocity when a force acts in the same direction as its motion?",
+    "reference_answer": "Its speed increases while its direction of motion stays the same.",
+    "question_type": "fact",
+    "source_pages": [8],
+    "source_chunk_ids": ["doc-2_page_8_chunk_2"],
+    "evaluation_criteria": ["Says speed or velocity magnitude increases", "Says direction remains unchanged"]
+  },
+  {
+    "id": "gen_012",
+    "question": "What happens when a force acts opposite to an object's direction of motion?",
+    "reference_answer": "The object's speed decreases while its direction of motion does not change, as described in the guide.",
+    "question_type": "fact",
+    "source_pages": [8],
+    "source_chunk_ids": ["doc-2_page_8_chunk_2"],
+    "evaluation_criteria": ["States speed decreases", "States direction unchanged"]
+  },
+  {
+    "id": "gen_013",
+    "question": "Why does an object in uniform circular motion have centripetal acceleration?",
+    "reference_answer": "Its velocity direction continually changes while it moves around the circle, so it has acceleration directed toward the center of the circular path.",
+    "question_type": "explanation",
+    "source_pages": [8],
+    "source_chunk_ids": ["doc-2_page_8_chunk_3", "doc-2_page_8_chunk_4"],
+    "evaluation_criteria": ["Explains velocity direction changes", "Identifies inward/center direction of acceleration"]
+  },
+  {
+    "id": "gen_014",
+    "question": "What is the formula for centripetal acceleration, and what do v and r mean?",
+    "reference_answer": "Centripetal acceleration is a_c = v²/r, where v is the object's speed or velocity along the circular path and r is the radius of the path.",
+    "question_type": "multi_part",
+    "source_pages": [8],
+    "source_chunk_ids": ["doc-2_page_8_chunk_4"],
+    "evaluation_criteria": ["Correct formula", "Defines v", "Defines r"]
+  },
+  {
+    "id": "gen_015",
+    "question": "What is centripetal force?",
+    "reference_answer": "Centripetal force is the inward force acting toward the center that keeps an object moving along a circular path; it is the role of a force, not a separate new force type.",
+    "question_type": "explanation",
+    "source_pages": [8, 10],
+    "source_chunk_ids": ["doc-2_page_8_chunk_4", "doc-2_page_8_chunk_5", "doc-2_page_10_chunk_0"],
+    "evaluation_criteria": ["Explains inward direction and circular motion", "Avoids describing it as a new fundamental force type"]
+  },
+  {
+    "id": "gen_016",
+    "question": "Which factors affect centripetal force, and how does each factor change it?",
+    "reference_answer": "Centripetal force increases with mass, increases with the square of tangential speed, and decreases as the radius increases, when the other variables are held constant.",
+    "question_type": "multi_part",
+    "source_pages": [9],
+    "source_chunk_ids": ["doc-2_page_9_chunk_0", "doc-2_page_9_chunk_1", "doc-2_page_9_chunk_2"],
+    "evaluation_criteria": ["Mass direct proportionality", "Speed squared dependence", "Inverse dependence on radius"]
+  },
+  {
+    "id": "gen_017",
+    "question": "If centripetal force suddenly becomes zero, how does the body move next?",
+    "reference_answer": "It continues with uniform velocity along a straight line tangent to the circular path at that point, according to Newton's first law.",
+    "question_type": "explanation",
+    "source_pages": [9],
+    "source_chunk_ids": ["doc-2_page_9_chunk_3"],
+    "evaluation_criteria": ["Describes straight-line tangent motion", "Mentions uniform velocity or Newton's first law"]
+  },
+  {
+    "id": "gen_018",
+    "question": "What is friction, and what factors affect frictional force?",
+    "reference_answer": "Friction is a force that resists relative motion between contacting surfaces. The guide lists the pressing force between surfaces, the nature of the surfaces, and the object's angle or position among the factors affecting friction.",
+    "question_type": "multi_part",
+    "source_pages": [11],
+    "source_chunk_ids": ["doc-2_page_11_chunk_1", "doc-2_page_11_chunk_2"],
+    "evaluation_criteria": ["Defines friction as resisting relative motion", "Mentions listed factors without unsupported additions"]
+  },
+  {
+    "id": "gen_019",
+    "question": "How are static friction and sliding friction different?",
+    "reference_answer": "Static friction acts when contacting surfaces are not slipping relative to each other and prevents slipping from starting. Sliding friction acts while surfaces slide across one another.",
+    "question_type": "compare",
+    "source_pages": [11, 12],
+    "source_chunk_ids": ["doc-2_page_11_chunk_3", "doc-2_page_12_chunk_1"],
+    "evaluation_criteria": ["Distinguishes no-slip/rest condition from sliding", "Accurately describes each friction type"]
+  },
+  {
+    "id": "gen_020",
+    "question": "How do rolling friction and sliding friction compare according to the guide?",
+    "reference_answer": "The guide states that rolling friction is much weaker than sliding friction (and static friction).",
+    "question_type": "compare",
+    "source_pages": [12],
+    "source_chunk_ids": ["doc-2_page_12_chunk_3", "doc-2_page_12_chunk_4"],
+    "evaluation_criteria": ["States rolling friction is much weaker than sliding friction", "Does not reverse the comparison"]
+  },
+  {
+    "id": "gen_021",
+    "question": "What is fluid friction, and what examples does the guide give?",
+    "reference_answer": "Fluid friction resists objects moving through liquids or gases. Examples include water resistance when moving a hand through water and air resistance slowing a parachute.",
+    "question_type": "multi_part",
+    "source_pages": [13],
+    "source_chunk_ids": ["doc-2_page_13_chunk_0", "doc-2_page_13_chunk_1"],
+    "evaluation_criteria": ["Defines fluid friction in liquids/gases", "Provides both or equivalent examples from the guide"]
+  },
+  {
+    "id": "gen_022",
+    "question": "What is viscosity, and what two factors does the guide say it depends on?",
+    "reference_answer": "Viscosity is a fluid property caused by friction between adjacent layers that resists their relative motion. The coefficient of viscosity depends on the type of liquid and its temperature.",
+    "question_type": "multi_part",
+    "source_pages": [14],
+    "source_chunk_ids": ["doc-2_page_14_chunk_1", "doc-2_page_14_chunk_2", "doc-2_page_14_chunk_3"],
+    "evaluation_criteria": ["Explains layer resistance/relative motion", "Names liquid type and temperature as factors"]
+  },
+  {
+    "id": "gen_023",
+    "question": "Why is glycerine described as more viscous than water in the experiment?",
+    "reference_answer": "The ball took longer to reach the bottom in glycerine than in water, showing that glycerine offered greater resistance to its motion.",
+    "question_type": "reasoning",
+    "source_pages": [14],
+    "source_chunk_ids": ["doc-2_page_14_chunk_0", "doc-2_page_14_chunk_1"],
+    "evaluation_criteria": ["Mentions longer travel time in glycerine", "Connects the observation to greater resistance/viscosity"]
+  },
+  {
+    "id": "gen_024",
+    "question": "What is the difference between heat and temperature?",
+    "reference_answer": "In the guide, heat is described as the total energy of molecular motion within an object, while temperature measures the thermal energy or average heat of its molecules. Heat is measured in joules and temperature in kelvin for SI units.",
+    "question_type": "compare",
+    "source_pages": [22],
+    "source_chunk_ids": ["doc-2_page_22_chunk_0", "doc-2_page_22_chunk_1"],
+    "evaluation_criteria": ["Distinguishes heat from temperature as the guide presents them", "Correctly states SI units if included"]
+  },
+  {
+    "id": "gen_025",
+    "question": "How are heat capacity and specific heat different?",
+    "reference_answer": "Heat capacity is the heat required to raise the temperature of an entire body by one kelvin and depends on the body's mass. Specific heat is the heat needed to raise one kilogram of a substance by one kelvin and is a property of the material, independent of the sample's mass.",
+    "question_type": "compare",
+    "source_pages": [23, 24],
+    "source_chunk_ids": ["doc-2_page_23_chunk_1", "doc-2_page_23_chunk_2", "doc-2_page_23_chunk_3"],
+    "evaluation_criteria": ["Defines heat capacity for whole body", "Defines specific heat per unit mass", "Explains mass dependency difference"]
+  },
+  {
+    "id": "gen_026",
+    "question": "What are the three mechanisms of heat transfer?",
+    "reference_answer": "The three mechanisms are conduction, convection, and radiation.",
+    "question_type": "fact",
+    "source_pages": [25],
+    "source_chunk_ids": ["doc-2_page_25_chunk_4", "doc-2_page_25_chunk_5"],
+    "evaluation_criteria": ["Names all three mechanisms correctly"]
+  },
+  {
+    "id": "gen_027",
+    "question": "Explain conduction, convection, and radiation in one sentence each.",
+    "reference_answer": "Conduction transfers heat within or between bodies in contact. Convection transfers heat through the movement of a fluid. Radiation transfers heat by electromagnetic waves and does not require a material medium.",
+    "question_type": "multi_part",
+    "source_pages": [25, 26],
+    "source_chunk_ids": ["doc-2_page_25_chunk_4", "doc-2_page_25_chunk_5", "doc-2_page_26_chunk_0", "doc-2_page_26_chunk_1", "doc-2_page_26_chunk_2"],
+    "evaluation_criteria": ["Correct conduction definition", "Correct convection definition", "Correct radiation definition and no-medium point"]
+  },
+  {
+    "id": "gen_028",
+    "question": "Why does heat transfer occur, and in which direction does it flow?",
+    "reference_answer": "Heat transfer occurs because of a temperature difference and flows from the higher-temperature region or body toward the lower-temperature one.",
+    "question_type": "fact",
+    "source_pages": [25, 26],
+    "source_chunk_ids": ["doc-2_page_25_chunk_2", "doc-2_page_25_chunk_3", "doc-2_page_26_chunk_0"],
+    "evaluation_criteria": ["States temperature difference is required", "States flow direction from higher to lower temperature"]
+  },
+  {
+    "id": "gen_029",
+    "question": "Which heat-transfer mechanism explains hot air rising and cooler air replacing it?",
+    "reference_answer": "Convection. It involves fluid movement, where warmer fluid rises and cooler fluid moves to take its place.",
+    "question_type": "application",
+    "source_pages": [26],
+    "source_chunk_ids": ["doc-2_page_26_chunk_1"],
+    "evaluation_criteria": ["Identifies convection", "Explains bulk movement of warmer/cooler fluid"]
+  },
+  {
+    "id": "gen_030",
+    "question": "Does radiation need matter between the bodies to transfer heat? Explain.",
+    "reference_answer": "No. Radiation transfers heat through electromagnetic waves, so it can transfer energy without matter in the space between bodies.",
+    "question_type": "fact",
+    "source_pages": [25, 26],
+    "source_chunk_ids": ["doc-2_page_25_chunk_5", "doc-2_page_26_chunk_2"],
+    "evaluation_criteria": ["Answers no", "Mentions electromagnetic waves", "Explains no medium is required"]
+  }
+]

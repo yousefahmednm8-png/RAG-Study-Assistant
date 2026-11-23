@@ -1,6 +1,9 @@
-from src.retrieval import Retriever
-from src.reranker import Reranker
 from pathlib import Path
+
+from src.reranker import Reranker
+from src.retrieval import Retriever
+
+
 class RAGPipeline:
 
     def __init__(

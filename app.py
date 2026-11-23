@@ -1,13 +1,13 @@
 from pathlib import Path
+
 import streamlit as st
-from src.ingestion import PDFIngester
-from src.pipeline import RAGPipeline
 
 from src.chunking import Chunker
 from src.embeddings import EmbeddingModel
-from src.vector_store import VectorStore
 from src.generation import Generator
-
+from src.ingestion import PDFIngester
+from src.pipeline import RAGPipeline
+from src.vector_store import VectorStore
 
 # ============================================================
 # Page configuration

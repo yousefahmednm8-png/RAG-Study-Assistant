@@ -1,11 +1,11 @@
 import json
 from pathlib import Path
 
-from src.embeddings import EmbeddingModel
-from src.vector_store import VectorStore
-from src.pipeline import RAGPipeline
 from src.bm25_retrieval import BM25Retriever
 
+from src.embeddings import EmbeddingModel
+from src.pipeline import RAGPipeline
+from src.vector_store import VectorStore
 
 # ============================================================
 # Paths

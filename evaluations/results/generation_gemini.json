@@ -1,0 +1,2554 @@
+{
+  "metadata": {
+    "generation_model": "gemini-3.5-flash-lite",
+    "judge_model": "gemini-3.5-flash-lite",
+    "dataset": "evaluations/generation_eval_dataset.json",
+    "dataset_size": 30,
+    "updated_at_utc": "2026-11-23T21:28:27.935056+00:00"
+  },
+  "summary": {
+    "completed": 30,
+    "failed": 0,
+    "average_scores_out_of_5": {
+      "correctness": 4.83,
+      "faithfulness": 5.0,
+      "relevance": 4.97,
+      "completeness": 4.8,
+      "overall": 4.83
+    }
+  },
+  "results": [
+    {
+      "id": "gen_001",
+      "question": "What is force, and what causes it to exist?",
+      "reference_answer": "Force is a push or pull that can change or attempt to change an object's state of rest, motion, direction, or shape. It exists because objects interact.",
+      "question_type": "fact",
+      "source_pages": [
+        4
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_4_chunk_0",
+        "doc-2_page_4_chunk_1",
+        "doc-2_page_4_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Defines force as a push or pull/action",
+        "Connects force to interaction between objects",
+        "Does not add unsupported claims"
+      ],
+      "answer": "Based on the provided context:\n\n* **What force is:** Forces describe the interactions between an object and its environment [S1]. Conceptually, a force is an external effect that affects an object by changing or attempting to change its state or direction, or an action that produces or tends to produce a change in a body's state of rest or motion [S1, S5].\n* **What causes it to exist:** Forces only exist as a result of an interaction between two objects [S1]. When there is an interaction, there is a force upon each object, and when the interaction vanishes, the force no longer exists [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.7876954078674316
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.10598012804985046
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.101590096950531
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.08166573941707611
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.06058744341135025
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_4_chunk_1",
+        "doc-2_page_6_chunk_1",
+        "doc-2_page_6_chunk_2",
+        "doc-2_page_11_chunk_0",
+        "doc-2_page_4_chunk_2"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately defines force and explains what causes it to exist using information fully supported by the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.6-flash",
+      "evaluated_at_utc": "2026-11-23T20:31:59.237517+00:00"
+    },
+    {
+      "id": "gen_002",
+      "question": "List four effects a force can have on a body.",
+      "reference_answer": "A force can start a body moving, stop or slow a moving body, increase its speed, or change its direction, shape, or size.",
+      "question_type": "multi_part",
+      "source_pages": [
+        4
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_4_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Mentions at least four effects from the text",
+        "Does not confuse force effects with force types"
+      ],
+      "answer": "Based on the provided context (Source [S1]), four effects a force can have on a body are:\n\n1. A force can make a body that is at rest move.\n2. A force can stop a moving body or slow it down.\n3. A force can accelerate the speed of a moving body.\n4. A force can change the direction of a moving body along with its shape and size.",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.7814390659332275
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.10674568265676498
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_19_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 19,
+          "score": 0.03549845144152641
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.030136357992887497
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_7_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 7,
+          "score": 0.024655824527144432
+        },
+        {
+          "source_id": "S6",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.019561633467674255
+        },
+        {
+          "source_id": "S7",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_3_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 3,
+          "score": 0.017389560118317604
+        },
+        {
+          "source_id": "S8",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_2_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 2,
+          "score": 0.016831975430250168
+        },
+        {
+          "source_id": "S9",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.014617057517170906
+        },
+        {
+          "source_id": "S10",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.010704336687922478
+        },
+        {
+          "source_id": "S11",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.010157243348658085
+        },
+        {
+          "source_id": "S12",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.009842302650213242
+        },
+        {
+          "source_id": "S13",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.009532708674669266
+        },
+        {
+          "source_id": "S14",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.005839503835886717
+        },
+        {
+          "source_id": "S15",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_3_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 3,
+          "score": 0.004151559434831142
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_4_chunk_2",
+        "doc-2_page_8_chunk_2",
+        "doc-2_page_19_chunk_4",
+        "doc-2_page_6_chunk_0",
+        "doc-2_page_7_chunk_1",
+        "doc-2_page_6_chunk_2",
+        "doc-2_page_3_chunk_1",
+        "doc-2_page_2_chunk_0",
+        "doc-2_page_4_chunk_1",
+        "doc-2_page_11_chunk_1",
+        "doc-2_page_4_chunk_4",
+        "doc-2_page_4_chunk_3",
+        "doc-2_page_11_chunk_2",
+        "doc-2_page_5_chunk_0",
+        "doc-2_page_3_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The answer accurately and faithfully lists four effects of a force directly from Chunk 1 of the retrieved context, fully satisfying both the reference answer and evaluation criteria.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.6-flash",
+      "evaluated_at_utc": "2026-11-23T20:34:25.843247+00:00"
+    },
+    {
+      "id": "gen_003",
+      "question": "What is the difference between contact and non-contact forces? Give examples of each.",
+      "reference_answer": "Contact forces act when objects physically touch, such as friction, tension, normal force, air resistance, applied force, and spring force. Non-contact forces act without physical contact, such as gravitational, electrical, and magnetic forces.",
+      "question_type": "compare",
+      "source_pages": [
+        4
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_4_chunk_3",
+        "doc-2_page_4_chunk_4"
+      ],
+      "evaluation_criteria": [
+        "Explains physical contact distinction correctly",
+        "Gives at least two valid examples per category"
+      ],
+      "answer": "Based on the provided context, the differences and examples are as follows:\n\n*   **Contact forces** are produced when two interacting objects have a physical contact with each other [S1]. \n    *   *Examples of contact forces:* Frictional force, Tension force, Normal Force, Air Resistance Force, Applied Force, and Spring Force [S1].\n*   **Non-contact forces** (also referred to as action at a distance forces) happen when two interacting objects are not in physical contact with each other [S1, S2].\n    *   *Examples of non-contact forces:* Gravitational force, Electrical force, and Magnetic forces [S2].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.937983512878418
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.6978292465209961
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.028351835906505585
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.02292184717953205
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.0143956383690238
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_4_chunk_3",
+        "doc-2_page_4_chunk_4",
+        "doc-2_page_11_chunk_3",
+        "doc-2_page_11_chunk_1",
+        "doc-2_page_11_chunk_2"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately and completely explains the distinction between contact and non-contact forces using the provided context, providing multiple correct examples for both categories.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.6-flash",
+      "evaluated_at_utc": "2026-11-23T20:34:54.787053+00:00"
+    },
+    {
+      "id": "gen_004",
+      "question": "What is the equation relating force, mass, and acceleration, and what does it tell us?",
+      "reference_answer": "The equation is F = ma. The resultant force equals an object's mass multiplied by its acceleration.",
+      "question_type": "fact",
+      "source_pages": [
+        5
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_5_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "States F = ma",
+        "Identifies F as force, m as mass, and a as acceleration"
+      ],
+      "answer": "Based on the provided context, the equation relating force, mass, and acceleration is:\n\n**Force = Mass × Acceleration** (or **$F = m \\cdot a$**) [S1, S2]\n\nAccording to the text, this equation tells us:\n* A Newton (the unit of force) is equivalent to $\\text{kg} \\times \\text{m/s}^2$, which represents the force acting on an object of mass $1\\text{ kg}$ to give it an acceleration of $1\\text{ m/s}^2$ [S1, S2]. \n* When a resultant force acts on an object ($\\Sigma F \\neq 0$), it causes the object to move at an acceleration, changing its velocity so that it acquires acceleration ($a \\neq 0$) [S2, S3]. Force is a vector quantity possessing both magnitude and direction [S2].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.9565125107765198
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.8998403549194336
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.3485160768032074
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.12152539193630219
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_15_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 15,
+          "score": 0.04727977514266968
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_5_chunk_2",
+        "doc-2_page_5_chunk_1",
+        "doc-2_page_5_chunk_0",
+        "doc-2_page_8_chunk_4",
+        "doc-2_page_15_chunk_5"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The answer accurately states the equation (F = ma) and clearly explains what it tells us using only details directly supported by the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.6-flash",
+      "evaluated_at_utc": "2026-11-23T20:35:34.163069+00:00"
+    },
+    {
+      "id": "gen_005",
+      "question": "Why is force described as a vector, and what is its SI unit?",
+      "reference_answer": "Force is a vector because it has both magnitude and direction. Its SI unit is the newton (N), equivalent to kg·m/s².",
+      "question_type": "multi_part",
+      "source_pages": [
+        5
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_5_chunk_1",
+        "doc-2_page_5_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Mentions magnitude and direction",
+        "Identifies newton",
+        "Gives kg·m/s² equivalence"
+      ],
+      "answer": "Based on the provided context:\n\n* **Why force is described as a vector:** Force is described as a vector quantity because it has both a magnitude and a direction [S1].\n* **SI unit of force:** The SI unit of force is the Newton [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.6814072132110596
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_2_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 2,
+          "score": 0.020418822765350342
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_3_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 3,
+          "score": 0.019638128578662872
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_4_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 4,
+          "score": 0.017165137454867363
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.011668073944747448
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_5_chunk_1",
+        "doc-2_page_2_chunk_0",
+        "doc-2_page_3_chunk_0",
+        "doc-2_page_4_chunk_0",
+        "doc-2_page_5_chunk_0"
+      ],
+      "judge": {
+        "correctness": 4,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 3,
+        "overall": 4,
+        "failure_category": "incomplete_answer",
+        "reason": "The generated answer correctly explains why force is a vector (magnitude and direction) and identifies the Newton as its SI unit. However, it omits the kg·m/s² equivalence specified in the reference answer and evaluation criteria.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.6-flash",
+      "evaluated_at_utc": "2026-11-23T21:03:05.627602+00:00"
+    },
+    {
+      "id": "gen_006",
+      "question": "What is gravity, and how does it change with mass and distance?",
+      "reference_answer": "Gravity is an attractive force between objects with mass. More massive objects have stronger gravitational attraction, and gravity becomes weaker as distance increases.",
+      "question_type": "multi_part",
+      "source_pages": [
+        6
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_6_chunk_0",
+        "doc-2_page_6_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Defines gravity as attraction",
+        "Says it increases with mass",
+        "Says it weakens as distance increases"
+      ],
+      "answer": "Based on the provided context:\n\n* **What gravity is:** Gravity is an invisible force that pulls objects toward each other, or the force by which a planet or other body draws objects toward its center [S1, S2]. Anything that has mass also has gravity [S1].\n* **How it changes with mass:** Objects with more mass have more gravity [S1]. According to the universal law of gravitation, the gravitational force is directly proportional to the product of the masses of the two bodies [S3].\n* **How it changes with distance:** Gravity gets weaker with distance [S1]. Specifically, the gravitational force is inversely proportional to the distance between the two bodies squared [S3].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.766698956489563
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.40063294768333435
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.06647352129220963
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.023949725553393364
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_7_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 7,
+          "score": 0.016673441976308823
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_6_chunk_1",
+        "doc-2_page_6_chunk_0",
+        "doc-2_page_6_chunk_3",
+        "doc-2_page_5_chunk_1",
+        "doc-2_page_7_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately, fully, and faithfully addresses the question using details directly supported by the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:19:30.820147+00:00"
+    },
+    {
+      "id": "gen_007",
+      "question": "How is gravitational force between two bodies related to their masses and separation?",
+      "reference_answer": "Gravitational force is proportional to the product of the two masses and inversely proportional to the square of the distance between their centers: F = G m1 m2 / r².",
+      "question_type": "fact",
+      "source_pages": [
+        6
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_6_chunk_3"
+      ],
+      "evaluation_criteria": [
+        "Correct proportionality to both masses",
+        "Correct inverse-square dependence on distance",
+        "Correct formula"
+      ],
+      "answer": "Based on the provided context, the gravitational force between two bodies is directly proportional to the product of their masses and inversely proportional to the square of the distance (separation) between them [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.5111371278762817
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.43987637758255005
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.058188095688819885
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.044536057859659195
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_7_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 7,
+          "score": 0.04427894949913025
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_6_chunk_3",
+        "doc-2_page_6_chunk_2",
+        "doc-2_page_6_chunk_4",
+        "doc-2_page_6_chunk_1",
+        "doc-2_page_7_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately describes the relationship between gravitational force, masses, and separation distance according to both the reference answer and the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:19:34.543930+00:00"
+    },
+    {
+      "id": "gen_008",
+      "question": "What is the gravitational constant G and what value is given in the guide?",
+      "reference_answer": "G is the universal gravitational constant, given as 6.67 × 10⁻¹¹ N·m²/kg².",
+      "question_type": "fact",
+      "source_pages": [
+        6
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_6_chunk_3"
+      ],
+      "evaluation_criteria": [
+        "Identifies G as the universal gravitational constant",
+        "Gives the stated value and units accurately"
+      ],
+      "answer": "Based on the provided guide, **G** is the universal constant (or universal constant of gravitation). \n\nThe value given in the guide is:\n**G = 6.67 × 10^-11 N·m²/kg²** \n\n*(Source: S1)*",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.24360567331314087
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.0029590758495032787
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.0024386830627918243
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.0014622824965044856
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_7_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 7,
+          "score": 0.0013826551148667932
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_6_chunk_3",
+        "doc-2_page_10_chunk_1",
+        "doc-2_page_6_chunk_1",
+        "doc-2_page_6_chunk_0",
+        "doc-2_page_7_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately identifies G as the universal constant and provides the exact value and units given in the retrieved context, fully satisfying the reference answer and criteria.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:19:41.044100+00:00"
+    },
+    {
+      "id": "gen_009",
+      "question": "Are the gravitational forces two bodies exert on each other equal or different?",
+      "reference_answer": "They are equal in magnitude and opposite in direction; each body attracts the other with the same force.",
+      "question_type": "fact",
+      "source_pages": [
+        6
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_6_chunk_4"
+      ],
+      "evaluation_criteria": [
+        "States equal magnitude",
+        "States opposite directions or mutual attraction"
+      ],
+      "answer": "Based on the provided context, the gravitational forces two bodies exert on each other are equal. The attraction force is a mutual force where each body attracts the other by the same force, meaning the force acting on the first body equals the force acting on the second body [S1, S2].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.24175003170967102
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.22846151888370514
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.20418183505535126
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.04433472827076912
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.03331886604428291
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_6_chunk_4",
+        "doc-2_page_6_chunk_3",
+        "doc-2_page_6_chunk_2",
+        "doc-2_page_6_chunk_0",
+        "doc-2_page_6_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately states that the gravitational forces are equal based on the retrieved context, capturing the concept of mutual attraction and equal force between the two bodies.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:19:47.716831+00:00"
+    },
+    {
+      "id": "gen_010",
+      "question": "Give three applications of the universal law of gravitation mentioned in the guide.",
+      "reference_answer": "It helps explain the motion of planets around the Sun, the motion of the Moon or satellites around Earth, and the motion of freely falling bodies.",
+      "question_type": "multi_part",
+      "source_pages": [
+        7
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_7_chunk_0",
+        "doc-2_page_7_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Lists three applications supported by the guide"
+      ],
+      "answer": "Based on the provided context, only two applications of the universal law of gravitation are explicitly mentioned:\n\na) The motion of planets around the sun [S1]\nb) The motion of the moon (satellite) around [S1] (also supported by mentions of the motion of Earth around the Sun and the moon around Earth in [S4])\n\nThe context is insufficient to provide a third application, as only two are listed in the text.",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_7_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 7,
+          "score": 0.30916380882263184
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_3_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 3,
+          "score": 0.10112249106168747
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_6_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 6,
+          "score": 0.041573021560907364
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.010084591805934906
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_15_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 15,
+          "score": 0.004637696780264378
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_7_chunk_0",
+        "doc-2_page_3_chunk_0",
+        "doc-2_page_6_chunk_3",
+        "doc-2_page_8_chunk_1",
+        "doc-2_page_15_chunk_5"
+      ],
+      "judge": {
+        "correctness": 2,
+        "faithfulness": 5,
+        "relevance": 4,
+        "completeness": 2,
+        "overall": 2,
+        "failure_category": "context_insufficient",
+        "reason": "The retrieved context cuts off the third application (likely freely falling bodies), making it impossible for the model to provide three based solely on the provided text. The model correctly identified that the context is insufficient.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:19:52.639485+00:00"
+    },
+    {
+      "id": "gen_011",
+      "question": "What happens to an object's velocity when a force acts in the same direction as its motion?",
+      "reference_answer": "Its speed increases while its direction of motion stays the same.",
+      "question_type": "fact",
+      "source_pages": [
+        8
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_8_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Says speed or velocity magnitude increases",
+        "Says direction remains unchanged"
+      ],
+      "answer": "Based on the provided context, when a force acts in the same direction as an object's motion, the magnitude of its velocity increases and its direction does not change [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.9474579691886902
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.738694965839386
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.42469117045402527
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.38294509053230286
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.11545965820550919
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_8_chunk_2",
+        "doc-2_page_8_chunk_3",
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_5_chunk_1",
+        "doc-2_page_9_chunk_3"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately and completely addresses the prompt, fully matches the reference answer, and is entirely grounded in the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:22:51.055207+00:00"
+    },
+    {
+      "id": "gen_012",
+      "question": "What happens when a force acts opposite to an object's direction of motion?",
+      "reference_answer": "The object's speed decreases while its direction of motion does not change, as described in the guide.",
+      "question_type": "fact",
+      "source_pages": [
+        8
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_8_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "States speed decreases",
+        "States direction unchanged"
+      ],
+      "answer": "Based on the provided context, when a force acts in the opposite direction of an object's motion, the magnitude of its velocity decreases and its direction does not change [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.8573886156082153
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.5636908411979675
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_5_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 5,
+          "score": 0.18873722851276398
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.1566905528306961
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.14606015384197235
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_8_chunk_2",
+        "doc-2_page_8_chunk_3",
+        "doc-2_page_5_chunk_1",
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_11_chunk_2"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately states that the magnitude of velocity decreases while the direction remains unchanged, perfectly matching both the reference answer and the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:22:54.333811+00:00"
+    },
+    {
+      "id": "gen_013",
+      "question": "Why does an object in uniform circular motion have centripetal acceleration?",
+      "reference_answer": "Its velocity direction continually changes while it moves around the circle, so it has acceleration directed toward the center of the circular path.",
+      "question_type": "explanation",
+      "source_pages": [
+        8
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_8_chunk_3",
+        "doc-2_page_8_chunk_4"
+      ],
+      "evaluation_criteria": [
+        "Explains velocity direction changes",
+        "Identifies inward/center direction of acceleration"
+      ],
+      "answer": "Based on the provided context, an object in a circular motion has centripetal acceleration due to a change in the direction of its velocity [S1, S4].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.9505354166030884
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.9433290958404541
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.47434568405151367
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.4033450484275818
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.3848719894886017
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_8_chunk_4",
+        "doc-2_page_8_chunk_3",
+        "doc-2_page_9_chunk_3",
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_10_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer correctly explains that centripetal acceleration occurs due to a change in the direction of velocity, which is fully supported by the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:22:57.780244+00:00"
+    },
+    {
+      "id": "gen_014",
+      "question": "What is the formula for centripetal acceleration, and what do v and r mean?",
+      "reference_answer": "Centripetal acceleration is a_c = v²/r, where v is the object's speed or velocity along the circular path and r is the radius of the path.",
+      "question_type": "multi_part",
+      "source_pages": [
+        8
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_8_chunk_4"
+      ],
+      "evaluation_criteria": [
+        "Correct formula",
+        "Defines v",
+        "Defines r"
+      ],
+      "answer": "Based on the provided context:\n\n* **Formula for centripetal acceleration ($a_c$):** \n  $$a_c = \\frac{v^2}{r}$$ [S1]\n\n* **What $v$ and $r$ mean:**\n  * **$v$:** Velocity of the moving object in the circular path (m/s) [S1]\n  * **$r$:** Radius of the circular path (m) [S1]",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.980172336101532
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.9526839256286621
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.7657862305641174
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.6843174695968628
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.29284805059432983
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_8_chunk_4",
+        "doc-2_page_10_chunk_0",
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_10_chunk_2",
+        "doc-2_page_9_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer correctly provides the formula for centripetal acceleration and accurately defines both v and r according to the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:10.904087+00:00"
+    },
+    {
+      "id": "gen_015",
+      "question": "What is centripetal force?",
+      "reference_answer": "Centripetal force is the inward force acting toward the center that keeps an object moving along a circular path; it is the role of a force, not a separate new force type.",
+      "question_type": "explanation",
+      "source_pages": [
+        8,
+        10
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_8_chunk_4",
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_10_chunk_0"
+      ],
+      "evaluation_criteria": [
+        "Explains inward direction and circular motion",
+        "Avoids describing it as a new fundamental force type"
+      ],
+      "answer": "Based on the provided context, centripetal force is defined as:\n\n* The force acting continuously in a direction normal (perpendicular) to the motion of a body, which causes its path to change from being straight into circular [S1].\n* The term given to any force acting normally to the path of a moving object that makes it move in a circular path (it is not considered a new type of force, and may be a tension force, gravitational force, friction force, reaction force, or lifting force) [S3, S5]. \n* The force acting on an object towards the center during uniform circular motion [S2]. \n\nIt can be calculated using the formula: $\\mathbf{F_C} = m \\mathbf{a_C} = m \\frac{v^2}{r}$ [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.9963506460189819
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.9446311593055725
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.8775410652160645
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.8662347793579102
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.8643733859062195
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_8_chunk_4",
+        "doc-2_page_10_chunk_0",
+        "doc-2_page_8_chunk_0",
+        "doc-2_page_10_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately defines centripetal force, explains its inward/normal direction for circular motion, clarifies that it is not a new fundamental force type, and correctly utilizes formulas and examples from the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:15.610388+00:00"
+    },
+    {
+      "id": "gen_016",
+      "question": "Which factors affect centripetal force, and how does each factor change it?",
+      "reference_answer": "Centripetal force increases with mass, increases with the square of tangential speed, and decreases as the radius increases, when the other variables are held constant.",
+      "question_type": "multi_part",
+      "source_pages": [
+        9
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_9_chunk_0",
+        "doc-2_page_9_chunk_1",
+        "doc-2_page_9_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Mass direct proportionality",
+        "Speed squared dependence",
+        "Inverse dependence on radius"
+      ],
+      "answer": "Based on the provided context, the factors that affect centripetal force and how each factor changes it are:\n\n1. **Mass of the object ($m$):** The centripetal force is **directly proportional** to the mass (at a constant velocity and radius) [S2]. \n2. **Tangential velocity ($v$):** The centripetal force is **directly proportional to the square of the velocity** (at a constant radius and mass) [S2]. As velocity increases, more centripetal force is needed [S4].\n3. **Radius of rotation ($r$):** The centripetal force is **inversely proportional** to the radius of the path (at a constant velocity and mass) [S4]. When the radius of the curve decreases, more centripetal force is needed [S4].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.9813282489776611
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.8590310215950012
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_3_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 3,
+          "score": 0.5668838024139404
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.15988700091838837
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.15284986793994904
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_9_chunk_0",
+        "doc-2_page_9_chunk_1",
+        "doc-2_page_3_chunk_1",
+        "doc-2_page_9_chunk_2",
+        "doc-2_page_8_chunk_5"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately identifies all three factors affecting centripetal force (mass, tangential velocity, and radius of rotation) and correctly explains how each factor changes the force, fully matching both the reference answer and the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:23.479282+00:00"
+    },
+    {
+      "id": "gen_017",
+      "question": "If centripetal force suddenly becomes zero, how does the body move next?",
+      "reference_answer": "It continues with uniform velocity along a straight line tangent to the circular path at that point, according to Newton's first law.",
+      "question_type": "explanation",
+      "source_pages": [
+        9
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_9_chunk_3"
+      ],
+      "evaluation_criteria": [
+        "Describes straight-line tangent motion",
+        "Mentions uniform velocity or Newton's first law"
+      ],
+      "answer": "Based on the provided context, if the centripetal force suddenly becomes zero, the resultant force acting on the body will be zero and the acceleration acquired by the object will be zero. Consequently, the object will move with a uniform velocity in a straight line tangent to the circular path, according to Newton's first law (Source S1).",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_9_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 9,
+          "score": 0.9955195188522339
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.04193264991044998
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_10_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 10,
+          "score": 0.021632852032780647
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.02088274247944355
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_8_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 8,
+          "score": 0.020441701635718346
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_9_chunk_3",
+        "doc-2_page_8_chunk_5",
+        "doc-2_page_10_chunk_1",
+        "doc-2_page_8_chunk_2",
+        "doc-2_page_8_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately and completely answers the question based on the retrieved context, capturing all evaluation criteria (straight-line tangent motion, uniform velocity, and Newton's first law) without any unsupported claims.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:27.487134+00:00"
+    },
+    {
+      "id": "gen_018",
+      "question": "What is friction, and what factors affect frictional force?",
+      "reference_answer": "Friction is a force that resists relative motion between contacting surfaces. The guide lists the pressing force between surfaces, the nature of the surfaces, and the object's angle or position among the factors affecting friction.",
+      "question_type": "multi_part",
+      "source_pages": [
+        11
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_11_chunk_1",
+        "doc-2_page_11_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Defines friction as resisting relative motion",
+        "Mentions listed factors without unsupported additions"
+      ],
+      "answer": "Based on the provided context:\n\n**What is friction?**\n* Friction is the force that resists motion when the surface of one object comes in contact with the surface of another [S1].\n* Frictional force is the force generated by two surfaces that contact and slide against each other, and it resists the sliding or rolling of one solid object over another [S1]. It also opposes motion between any surfaces that are in contact [S3].\n\n**What factors affect frictional force?**\nThe factors affecting the frictional force are:\na) The force with which the two surfaces are pressed together [S1]\nb) The nature of the two surfaces that are sliding across each other (or interacting surfaces) [S1, S2]\nc) The angle and position of the object [S3]",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.9933450222015381
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.6474193930625916
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.5560768842697144
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_3_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 3,
+          "score": 0.45148274302482605
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.062343090772628784
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_11_chunk_1",
+        "doc-2_page_11_chunk_0",
+        "doc-2_page_11_chunk_2",
+        "doc-2_page_3_chunk_1",
+        "doc-2_page_11_chunk_3"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately defines friction and correctly lists the factors affecting frictional force, fully supported by the retrieved context and matching the reference answer.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:34.659569+00:00"
+    },
+    {
+      "id": "gen_019",
+      "question": "How are static friction and sliding friction different?",
+      "reference_answer": "Static friction acts when contacting surfaces are not slipping relative to each other and prevents slipping from starting. Sliding friction acts while surfaces slide across one another.",
+      "question_type": "compare",
+      "source_pages": [
+        11,
+        12
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_11_chunk_3",
+        "doc-2_page_12_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Distinguishes no-slip/rest condition from sliding",
+        "Accurately describes each friction type"
+      ],
+      "answer": "Based on the provided context, static friction and sliding friction differ in the following ways:\n\n* **Definition and When They Act:** \n  * **Static friction** acts on objects when they are resting on a surface, preventing surfaces from sliding or slipping across each other [S3].\n  * **Sliding friction** acts on objects when they are sliding over a surface [S2].\n* **Strength:** Sliding friction is weaker than static friction [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.976700484752655
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.9617911577224731
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.8732848167419434
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.8254861235618591
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.6032291054725647
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_12_chunk_4",
+        "doc-2_page_12_chunk_1",
+        "doc-2_page_11_chunk_3",
+        "doc-2_page_12_chunk_0",
+        "doc-2_page_11_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately distinguishes between static and sliding friction based on the provided context, correctly identifying their conditions (resting vs. sliding) and relative strengths.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:37.656251+00:00"
+    },
+    {
+      "id": "gen_020",
+      "question": "How do rolling friction and sliding friction compare according to the guide?",
+      "reference_answer": "The guide states that rolling friction is much weaker than sliding friction (and static friction).",
+      "question_type": "compare",
+      "source_pages": [
+        12
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_12_chunk_3",
+        "doc-2_page_12_chunk_4"
+      ],
+      "evaluation_criteria": [
+        "States rolling friction is much weaker than sliding friction",
+        "Does not reverse the comparison"
+      ],
+      "answer": "According to the guide, rolling friction is much weaker than sliding friction [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.8556800484657288
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.8065056204795837
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.7314936518669128
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.6309677958488464
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.2816866934299469
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_12_chunk_4",
+        "doc-2_page_12_chunk_1",
+        "doc-2_page_12_chunk_3",
+        "doc-2_page_12_chunk_2",
+        "doc-2_page_11_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately states that rolling friction is much weaker than sliding friction, which is fully supported by the retrieved context and matches the reference answer.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:41.519054+00:00"
+    },
+    {
+      "id": "gen_021",
+      "question": "What is fluid friction, and what examples does the guide give?",
+      "reference_answer": "Fluid friction resists objects moving through liquids or gases. Examples include water resistance when moving a hand through water and air resistance slowing a parachute.",
+      "question_type": "multi_part",
+      "source_pages": [
+        13
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_13_chunk_0",
+        "doc-2_page_13_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Defines fluid friction in liquids/gases",
+        "Provides both or equivalent examples from the guide"
+      ],
+      "answer": "Based on the provided context, **fluid friction** is friction that occurs in liquids and gases and acts on objects moving through a fluid (a substance that can flow) [S1]. \n\nThe examples given in the guide are:\n1. Pushing your open hand through the water in a tub or pool (called water resistance) [S1].\n2. [Note: The text cuts off while introducing the second example (\"2) In the opposit\") [S1].]",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_13_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 13,
+          "score": 0.9859721660614014
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.03291479870676994
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_12_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 12,
+          "score": 0.03176067769527435
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.02836090326309204
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_11_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 11,
+          "score": 0.025042302906513214
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_13_chunk_0",
+        "doc-2_page_12_chunk_2",
+        "doc-2_page_12_chunk_1",
+        "doc-2_page_14_chunk_1",
+        "doc-2_page_11_chunk_3"
+      ],
+      "judge": {
+        "correctness": 4,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 4,
+        "overall": 4,
+        "failure_category": "incomplete_answer",
+        "reason": "The generated answer correctly defines fluid friction and provides the first example based on the context. However, it is incomplete regarding the second example because the retrieved context cuts off mid-sentence, preventing it from providing both full examples as requested by the reference answer.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:45.103600+00:00"
+    },
+    {
+      "id": "gen_022",
+      "question": "What is viscosity, and what two factors does the guide say it depends on?",
+      "reference_answer": "Viscosity is a fluid property caused by friction between adjacent layers that resists their relative motion. The coefficient of viscosity depends on the type of liquid and its temperature.",
+      "question_type": "multi_part",
+      "source_pages": [
+        14
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_14_chunk_1",
+        "doc-2_page_14_chunk_2",
+        "doc-2_page_14_chunk_3"
+      ],
+      "evaluation_criteria": [
+        "Explains layer resistance/relative motion",
+        "Names liquid type and temperature as factors"
+      ],
+      "answer": "Based on the provided context:\n\n* **Viscosity** is the property of a fluid (or liquid) due to the existence of a friction force between each liquid layer and the adjacent one, which resists the sliding of the liquid layers with respect to each other (or is the property responsible for resisting the relative motion of liquid layers) [S2, S4].\n* The two factors it depends on are:\n  1. The type of liquid [S1].\n  2. The temperature [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.9741621017456055
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.1659170389175415
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_15_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 15,
+          "score": 0.10800421983003616
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.05938710272312164
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_16_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 16,
+          "score": 0.028093736618757248
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_14_chunk_3",
+        "doc-2_page_14_chunk_2",
+        "doc-2_page_15_chunk_3",
+        "doc-2_page_14_chunk_1",
+        "doc-2_page_16_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately defines viscosity based on fluid layer resistance and relative motion, and correctly identifies the two factors (type of liquid and temperature) as stated in the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:49.650120+00:00"
+    },
+    {
+      "id": "gen_023",
+      "question": "Why is glycerine described as more viscous than water in the experiment?",
+      "reference_answer": "The ball took longer to reach the bottom in glycerine than in water, showing that glycerine offered greater resistance to its motion.",
+      "question_type": "reasoning",
+      "source_pages": [
+        14
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_14_chunk_0",
+        "doc-2_page_14_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Mentions longer travel time in glycerine",
+        "Connects the observation to greater resistance/viscosity"
+      ],
+      "answer": "Based on the provided context, glycerine is described as more viscous than water because the time taken for a metallic ball to reach the bottom of the cylinder is greater in glycerin than in water. This shows that the resistance of glycerin to the ball's motion is greater than that of water [S1].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.9554961919784546
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.18667849898338318
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_16_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 16,
+          "score": 0.0026854786556214094
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_14_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 14,
+          "score": 0.0025193023029714823
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_16_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 16,
+          "score": 0.0011615310795605183
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_14_chunk_1",
+        "doc-2_page_14_chunk_0",
+        "doc-2_page_16_chunk_0",
+        "doc-2_page_14_chunk_2",
+        "doc-2_page_16_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately captures both evaluation criteria using the retrieved context, noting the longer travel time in glycerin and connecting it to greater resistance.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:53.810154+00:00"
+    },
+    {
+      "id": "gen_024",
+      "question": "What is the difference between heat and temperature?",
+      "reference_answer": "In the guide, heat is described as the total energy of molecular motion within an object, while temperature measures the thermal energy or average heat of its molecules. Heat is measured in joules and temperature in kelvin for SI units.",
+      "question_type": "compare",
+      "source_pages": [
+        22
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_22_chunk_0",
+        "doc-2_page_22_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Distinguishes heat from temperature as the guide presents them",
+        "Correctly states SI units if included"
+      ],
+      "answer": "Based on the provided context, the differences between heat and temperature include the following:\n\n* **Definition:** \n  * **Heat** is the total energy of all the molecular motion inside an object (or thermal energy transferred from a hotter system to a cooler system in contact) [S1, S2]. It also refers to energy transfer or energy in transit caused by temperature differences [S2, S5].\n  * **Temperature** is the measure of the thermal energy or average heat of the molecules in a substance [S1, S4]. It is rooted in qualitative ideas of \"hot\" and \"cold\" and is a quantitative description of a material's hotness or coldness depending on its physical state [S2, S5].\n* **Measuring Tool:** \n  * Heat transferred between two bodies is measured using a **Calorimeter** [S4].\n  * Temperature is measured using a **Thermometer** [S4].\n* **SI Unit:** \n  * **Heat:** Joule [S4].\n  * **Temperature:** Kelvin [S4].\n* **Units:** \n  * **Heat:** Joules, Calories [S4].\n  * **Temperature:** Fahrenheit, Celsius, Kelvin [S4].\n* **Symbol:** \n  * **Heat:** $Q$ [S4].\n  * **Temperature:** $T$ [S4].\n* **Ability to do Work:** \n  * **Heat** has the ability to do work [S4].\n  * **Temperature** can be used to measure the degree of heat [S4].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_22_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 22,
+          "score": 0.9811627864837646
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_18_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 18,
+          "score": 0.6473072171211243
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_2_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 2,
+          "score": 0.549841046333313
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_22_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 22,
+          "score": 0.5497738122940063
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_18_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 18,
+          "score": 0.4702189862728119
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_22_chunk_0",
+        "doc-2_page_18_chunk_1",
+        "doc-2_page_2_chunk_2",
+        "doc-2_page_22_chunk_1",
+        "doc-2_page_18_chunk_2"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately and thoroughly distinguishes between heat and temperature using the provided context, correctly stating definitions, tools, SI units, and other comparative points without introducing any unsupported claims.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:25:58.312450+00:00"
+    },
+    {
+      "id": "gen_025",
+      "question": "How are heat capacity and specific heat different?",
+      "reference_answer": "Heat capacity is the heat required to raise the temperature of an entire body by one kelvin and depends on the body's mass. Specific heat is the heat needed to raise one kilogram of a substance by one kelvin and is a property of the material, independent of the sample's mass.",
+      "question_type": "compare",
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_23_chunk_1",
+        "doc-2_page_23_chunk_2",
+        "doc-2_page_23_chunk_3"
+      ],
+      "evaluation_criteria": [
+        "Defines heat capacity for whole body",
+        "Defines specific heat per unit mass",
+        "Explains mass dependency difference"
+      ],
+      "answer": "Based on the provided context, heat capacity and specific heat differ in the following ways:\n\n* **Definition:** \n  * **Heat capacity** is the quantity of heat required for the *whole body* to raise its temperature by one Kelvin ($q_{th} = \\frac{Q_{th}}{\\Delta t}$) [S1, S3].\n  * **Specific heat** is the quantity of heat required to raise the temperature of a *unit of mass (1kg)* of a substance by one Kelvin ($C_{th} = \\frac{Q_{th}}{m\\Delta t}$) [S3, S5].\n* **Dependence on Mass:** \n  * Heat capacity is *not* a physical property of the material because it depends on the mass of the body [S3].\n  * Specific heat *is* a physical property of the material because it does not depend on mass, but varies from one material to another [S5].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_23_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 23,
+          "score": 0.9680403470993042
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_23_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 23,
+          "score": 0.9635852575302124
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_23_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 23,
+          "score": 0.8125453591346741
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_24_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 24,
+          "score": 0.7148693799972534
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_23_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 23,
+          "score": 0.6210502982139587
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_23_chunk_1",
+        "doc-2_page_23_chunk_0",
+        "doc-2_page_23_chunk_2",
+        "doc-2_page_24_chunk_0",
+        "doc-2_page_23_chunk_3"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately and comprehensively explains the differences between heat capacity and specific heat based on the retrieved context, meeting all evaluation criteria and matching the reference answer.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:26:02.307837+00:00"
+    },
+    {
+      "id": "gen_026",
+      "question": "What are the three mechanisms of heat transfer?",
+      "reference_answer": "The three mechanisms are conduction, convection, and radiation.",
+      "question_type": "fact",
+      "source_pages": [
+        25
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_25_chunk_5"
+      ],
+      "evaluation_criteria": [
+        "Names all three mechanisms correctly"
+      ],
+      "answer": "Based on the provided context, the three mechanisms of heat transfer are:\n\n1. **Conduction** (which occurs within a body or between two bodies in contact) [S1].\n2. **Convection** (which depends on the motion of mass from one region of space to another, or the mass motion of a fluid such as a liquid or gas) [S1, S2].\n3. **Radiation** (which is the transfer of heat by electromagnetic waves such as visible light, infrared, and ultraviolet radiation) [S1, S2].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.9994650483131409
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.8649170398712158
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.8206177353858948
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_2_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 2,
+          "score": 0.41894668340682983
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.2296925187110901
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_26_chunk_2",
+        "doc-2_page_25_chunk_3",
+        "doc-2_page_2_chunk_3",
+        "doc-2_page_26_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer correctly identifies all three mechanisms of heat transfer (conduction, convection, and radiation) as stated in the reference answer, and is fully supported by the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:26:05.787207+00:00"
+    },
+    {
+      "id": "gen_027",
+      "question": "Explain conduction, convection, and radiation in one sentence each.",
+      "reference_answer": "Conduction transfers heat within or between bodies in contact. Convection transfers heat through the movement of a fluid. Radiation transfers heat by electromagnetic waves and does not require a material medium.",
+      "question_type": "multi_part",
+      "source_pages": [
+        25,
+        26
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_25_chunk_5",
+        "doc-2_page_26_chunk_0",
+        "doc-2_page_26_chunk_1",
+        "doc-2_page_26_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Correct conduction definition",
+        "Correct convection definition",
+        "Correct radiation definition and no-medium point"
+      ],
+      "answer": "Based on the provided context:\n\n- **Conduction:** Conduction occurs within a body or between two bodies in contact (or through a material from a warmer to a cooler region) [S1, S5].\n- **Convection:** Convection is the transfer of heat by the mass motion of a fluid (liquid or gas) from one region of space to another [S3].\n- **Radiation:** Radiation is the transfer of heat by electromagnetic waves, such as visible light, infrared, and ultraviolet radiation, with no need for matter to be present in the space between bodies [S2, S4].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.7892706394195557
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.3518266975879669
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.3087286055088043
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.24749110639095306
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.15723967552185059
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_26_chunk_2",
+        "doc-2_page_26_chunk_1",
+        "doc-2_page_25_chunk_5",
+        "doc-2_page_26_chunk_0"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer provides clear, one-sentence-style definitions for conduction, convection, and radiation that perfectly match both the reference answer and the retrieved context, and all claims are fully supported.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:26:10.498613+00:00"
+    },
+    {
+      "id": "gen_028",
+      "question": "Why does heat transfer occur, and in which direction does it flow?",
+      "reference_answer": "Heat transfer occurs because of a temperature difference and flows from the higher-temperature region or body toward the lower-temperature one.",
+      "question_type": "fact",
+      "source_pages": [
+        25,
+        26
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_25_chunk_2",
+        "doc-2_page_25_chunk_3",
+        "doc-2_page_26_chunk_0"
+      ],
+      "evaluation_criteria": [
+        "States temperature difference is required",
+        "States flow direction from higher to lower temperature"
+      ],
+      "answer": "Based on the provided context, heat transfer occurs because there is a difference in temperature between regions or bodies [S1, S3, S4]. \n\nThe direction of heat flow is always from the side (or region) of higher temperature to the side (or region) of lower temperature [S1, S3].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.7523645758628845
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.500956118106842
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.4600718021392822
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.4421929121017456
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.35259440541267395
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_26_chunk_1",
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_25_chunk_3",
+        "doc-2_page_26_chunk_0",
+        "doc-2_page_25_chunk_1"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer accurately states that heat transfer occurs due to a temperature difference and flows from the higher-temperature region to the lower-temperature region, fully aligning with both the reference answer and the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:28:20.753088+00:00"
+    },
+    {
+      "id": "gen_029",
+      "question": "Which heat-transfer mechanism explains hot air rising and cooler air replacing it?",
+      "reference_answer": "Convection. It involves fluid movement, where warmer fluid rises and cooler fluid moves to take its place.",
+      "question_type": "application",
+      "source_pages": [
+        26
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_26_chunk_1"
+      ],
+      "evaluation_criteria": [
+        "Identifies convection",
+        "Explains bulk movement of warmer/cooler fluid"
+      ],
+      "answer": "Based on the provided context, the heat-transfer mechanism that explains hot air rising and cooler air replacing it is **convection** (specifically, convection in the atmosphere/gases) [S1, S4].",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.9284034371376038
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.2584517002105713
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_0",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.2447355091571808
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.05860966444015503
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_3",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.02868056483566761
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_26_chunk_2",
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_26_chunk_0",
+        "doc-2_page_26_chunk_1",
+        "doc-2_page_25_chunk_3"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer correctly identifies convection as the heat-transfer mechanism, accurately explains it based on the retrieved context, and aligns fully with the reference answer.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:28:24.233715+00:00"
+    },
+    {
+      "id": "gen_030",
+      "question": "Does radiation need matter between the bodies to transfer heat? Explain.",
+      "reference_answer": "No. Radiation transfers heat through electromagnetic waves, so it can transfer energy without matter in the space between bodies.",
+      "question_type": "fact",
+      "source_pages": [
+        25,
+        26
+      ],
+      "source_chunk_ids": [
+        "doc-2_page_25_chunk_5",
+        "doc-2_page_26_chunk_2"
+      ],
+      "evaluation_criteria": [
+        "Answers no",
+        "Mentions electromagnetic waves",
+        "Explains no medium is required"
+      ],
+      "answer": "No, radiation does not need matter between the bodies to transfer heat. Radiation is heat transfer by electromagnetic radiation (such as sunshine, or electromagnetic waves like visible light, infrared, and ultraviolet radiation) with no need for matter to be present in the space between bodies [S1, S3]. \n\nSources:\n- [S1] doc-2.pdf, page 25\n- [S3] doc-2.pdf, page 26",
+      "sources": [
+        {
+          "source_id": "S1",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_5",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.9964706897735596
+        },
+        {
+          "source_id": "S2",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_4",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.45579761266708374
+        },
+        {
+          "source_id": "S3",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_26_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 26,
+          "score": 0.12933215498924255
+        },
+        {
+          "source_id": "S4",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_1",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.04607689008116722
+        },
+        {
+          "source_id": "S5",
+          "document_id": "doc-2",
+          "chunk_id": "doc-2_page_25_chunk_2",
+          "source": "doc-2.pdf",
+          "page": 25,
+          "score": 0.031319208443164825
+        }
+      ],
+      "retrieved_chunk_ids": [
+        "doc-2_page_25_chunk_5",
+        "doc-2_page_25_chunk_4",
+        "doc-2_page_26_chunk_2",
+        "doc-2_page_25_chunk_1",
+        "doc-2_page_25_chunk_2"
+      ],
+      "judge": {
+        "correctness": 5,
+        "faithfulness": 5,
+        "relevance": 5,
+        "completeness": 5,
+        "overall": 5,
+        "failure_category": "none",
+        "reason": "The generated answer correctly answers 'no', explains that radiation uses electromagnetic waves, and explicitly states that no matter is required between the bodies, perfectly aligning with both the reference answer and the retrieved context.",
+        "unsupported_claims": []
+      },
+      "status": "success",
+      "generation_model": "gemini-3.5-flash-lite",
+      "judge_model": "gemini-3.5-flash-lite",
+      "evaluated_at_utc": "2026-11-23T21:28:27.920878+00:00"
+    }
+  ]
+}

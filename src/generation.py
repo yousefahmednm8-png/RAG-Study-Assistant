@@ -1,4 +1,6 @@
 import requests
+
+
 class Generator:
 
     def __init__(
