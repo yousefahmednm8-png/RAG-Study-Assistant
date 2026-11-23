@@ -1,6 +1,6 @@
 import numpy as np
-from src.bm25_retrieval import BM25Retriever
 
+from src.bm25_retrieval import BM25Retriever
 from src.retrieval import Retriever
 
 

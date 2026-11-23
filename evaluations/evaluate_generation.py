@@ -86,7 +86,7 @@ def _retry(call, attempts: int = 5, base_delay: float = 2.0):
     for attempt in range(1, attempts + 1):
         try:
             return call()
-        except Exception as exc:  # noqa: BLE001 - retry on transient API errors
+        except Exception as exc:
             last_exc = exc
             if not _is_transient(exc) or attempt == attempts:
                 raise

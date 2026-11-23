@@ -1,5 +1,7 @@
 # --- Environment / local config ---
 .env
+.env.*
+
 .streamlit/secrets.toml
 
 # --- Python ---
