@@ -10,7 +10,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
+./agents/
+./claude/
 # --- Virtual environments ---
 .venv/
 venv/
@@ -20,10 +21,14 @@ env/
 data/uploads/
 data/*.pdf
 data/*.txt
-
+.graphify-out/
 # --- OS ---
 .DS_Store
 Thumbs.db
+
+# --- Temporary / cache files ---
+*.tmp
+*.log
 
 # --- Editors / IDEs ---
 .vscode/

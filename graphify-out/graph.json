@@ -1,0 +1,3492 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "id": "app",
+      "community": 10
+    },
+    {
+      "label": "create_pipeline()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L136",
+      "id": "app_create_pipeline",
+      "community": 10
+    },
+    {
+      "label": "get_pipeline()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L162",
+      "id": "app_get_pipeline",
+      "community": 10
+    },
+    {
+      "label": "load_existing_index()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L176",
+      "id": "app_load_existing_index",
+      "community": 10
+    },
+    {
+      "label": "evaluate.py",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L1",
+      "id": "evaluate",
+      "community": 5
+    },
+    {
+      "label": "load_questions()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L90",
+      "id": "evaluate_load_questions",
+      "community": 5
+    },
+    {
+      "label": "hit_at_k()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L105",
+      "id": "evaluate_hit_at_k",
+      "community": 5
+    },
+    {
+      "label": "recall_at_k()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L122",
+      "id": "evaluate_recall_at_k",
+      "community": 5
+    },
+    {
+      "label": "precision_at_k()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L142",
+      "id": "evaluate_precision_at_k",
+      "community": 5
+    },
+    {
+      "label": "reciprocal_rank_at_k()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L165",
+      "id": "evaluate_reciprocal_rank_at_k",
+      "community": 5
+    },
+    {
+      "label": "evaluate_retriever()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L188",
+      "id": "evaluate_evaluate_retriever",
+      "community": 5
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L364",
+      "id": "evaluate_main",
+      "community": 5
+    },
+    {
+      "label": "evaluate_generation.py",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L1",
+      "id": "evaluate_generation",
+      "community": 3
+    },
+    {
+      "label": "load_env_file()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L34",
+      "id": "evaluate_generation_load_env_file",
+      "community": 3
+    },
+    {
+      "label": "load_json()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L50",
+      "id": "evaluate_generation_load_json",
+      "community": 3
+    },
+    {
+      "label": "save_json()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L55",
+      "id": "evaluate_generation_save_json",
+      "community": 3
+    },
+    {
+      "label": "parse_judge_json()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L64",
+      "id": "evaluate_generation_parse_judge_json",
+      "community": 3
+    },
+    {
+      "label": "_is_transient()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L79",
+      "id": "evaluate_generation_is_transient",
+      "community": 3
+    },
+    {
+      "label": "_retry()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L84",
+      "id": "evaluate_generation_retry",
+      "community": 3
+    },
+    {
+      "label": "GeminiGenerator",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L101",
+      "id": "evaluate_generation_geminigenerator",
+      "community": 3
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L104",
+      "id": "evaluate_generation_geminigenerator_init",
+      "community": 3
+    },
+    {
+      "label": ".generate()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L108",
+      "id": "evaluate_generation_geminigenerator_generate",
+      "community": 3
+    },
+    {
+      "label": "build_pipeline()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L121",
+      "id": "evaluate_generation_build_pipeline",
+      "community": 3
+    },
+    {
+      "label": "judge_answer()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L149",
+      "id": "evaluate_generation_judge_answer",
+      "community": 3
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L207",
+      "id": "evaluate_generation_main",
+      "community": 3
+    },
+    {
+      "label": "inspect_chunks.py",
+      "file_type": "code",
+      "source_file": "evaluations/inspect_chunks.py",
+      "source_location": "L1",
+      "id": "inspect_chunks",
+      "community": 15
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/__init__.py",
+      "source_location": "L1",
+      "id": "init",
+      "community": 16
+    },
+    {
+      "label": "chunking.py",
+      "file_type": "code",
+      "source_file": "src/chunking.py",
+      "source_location": "L1",
+      "id": "chunking",
+      "community": 11
+    },
+    {
+      "label": "chunk_text()",
+      "file_type": "code",
+      "source_file": "src/chunking.py",
+      "source_location": "L1",
+      "id": "chunking_chunk_text",
+      "community": 11
+    },
+    {
+      "label": "create_chunks()",
+      "file_type": "code",
+      "source_file": "src/chunking.py",
+      "source_location": "L66",
+      "id": "chunking_create_chunks",
+      "community": 11
+    },
+    {
+      "label": "Chunker",
+      "file_type": "code",
+      "source_file": "src/chunking.py",
+      "source_location": "L116",
+      "id": "chunking_chunker",
+      "community": 11
+    },
+    {
+      "label": ".chunk()",
+      "file_type": "code",
+      "source_file": "src/chunking.py",
+      "source_location": "L118",
+      "id": "chunking_chunker_chunk",
+      "community": 11
+    },
+    {
+      "label": "embeddings.py",
+      "file_type": "code",
+      "source_file": "src/embeddings.py",
+      "source_location": "L1",
+      "id": "embeddings",
+      "community": 2
+    },
+    {
+      "label": "EmbeddingModel",
+      "file_type": "code",
+      "source_file": "src/embeddings.py",
+      "source_location": "L4",
+      "id": "embeddings_embeddingmodel",
+      "community": 2
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/embeddings.py",
+      "source_location": "L6",
+      "id": "embeddings_embeddingmodel_init",
+      "community": 2
+    },
+    {
+      "label": ".encode_documents()",
+      "file_type": "code",
+      "source_file": "src/embeddings.py",
+      "source_location": "L10",
+      "id": "embeddings_embeddingmodel_encode_documents",
+      "community": 2
+    },
+    {
+      "label": ".encode_query()",
+      "file_type": "code",
+      "source_file": "src/embeddings.py",
+      "source_location": "L27",
+      "id": "embeddings_embeddingmodel_encode_query",
+      "community": 2
+    },
+    {
+      "label": ".dimension()",
+      "file_type": "code",
+      "source_file": "src/embeddings.py",
+      "source_location": "L34",
+      "id": "embeddings_embeddingmodel_dimension",
+      "community": 2
+    },
+    {
+      "label": "generation.py",
+      "file_type": "code",
+      "source_file": "src/generation.py",
+      "source_location": "L1",
+      "id": "generation",
+      "community": 13
+    },
+    {
+      "label": "Generator",
+      "file_type": "code",
+      "source_file": "src/generation.py",
+      "source_location": "L4",
+      "id": "generation_generator",
+      "community": 13
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/generation.py",
+      "source_location": "L6",
+      "id": "generation_generator_init",
+      "community": 13
+    },
+    {
+      "label": ".generate()",
+      "file_type": "code",
+      "source_file": "src/generation.py",
+      "source_location": "L14",
+      "id": "generation_generator_generate",
+      "community": 13
+    },
+    {
+      "label": "ingestion.py",
+      "file_type": "code",
+      "source_file": "src/ingestion.py",
+      "source_location": "L1",
+      "id": "ingestion",
+      "community": 6
+    },
+    {
+      "label": "load_pdf()",
+      "file_type": "code",
+      "source_file": "src/ingestion.py",
+      "source_location": "L6",
+      "id": "ingestion_load_pdf",
+      "community": 6
+    },
+    {
+      "label": "load_text()",
+      "file_type": "code",
+      "source_file": "src/ingestion.py",
+      "source_location": "L42",
+      "id": "ingestion_load_text",
+      "community": 6
+    },
+    {
+      "label": "load_document()",
+      "file_type": "code",
+      "source_file": "src/ingestion.py",
+      "source_location": "L68",
+      "id": "ingestion_load_document",
+      "community": 6
+    },
+    {
+      "label": "PDFIngester",
+      "file_type": "code",
+      "source_file": "src/ingestion.py",
+      "source_location": "L86",
+      "id": "ingestion_pdfingester",
+      "community": 6
+    },
+    {
+      "label": ".ingest()",
+      "file_type": "code",
+      "source_file": "src/ingestion.py",
+      "source_location": "L88",
+      "id": "ingestion_pdfingester_ingest",
+      "community": 6
+    },
+    {
+      "label": "pipeline.py",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L1",
+      "id": "pipeline",
+      "community": 1
+    },
+    {
+      "label": "RAGPipeline",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L7",
+      "id": "pipeline_ragpipeline",
+      "community": 1
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L9",
+      "id": "pipeline_ragpipeline_init",
+      "community": 1
+    },
+    {
+      "label": ".choose_top_k()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L36",
+      "id": "pipeline_ragpipeline_choose_top_k",
+      "community": 1
+    },
+    {
+      "label": ".index_documents()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L72",
+      "id": "pipeline_ragpipeline_index_documents",
+      "community": 1
+    },
+    {
+      "label": ".save_index()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L94",
+      "id": "pipeline_ragpipeline_save_index",
+      "community": 1
+    },
+    {
+      "label": ".load_index()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L116",
+      "id": "pipeline_ragpipeline_load_index",
+      "community": 1
+    },
+    {
+      "label": ".query()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L130",
+      "id": "pipeline_ragpipeline_query",
+      "community": 1
+    },
+    {
+      "label": ".build_prompt()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L201",
+      "id": "pipeline_ragpipeline_build_prompt",
+      "community": 1
+    },
+    {
+      "label": ".build_sources()",
+      "file_type": "code",
+      "source_file": "src/pipeline.py",
+      "source_location": "L266",
+      "id": "pipeline_ragpipeline_build_sources",
+      "community": 1
+    },
+    {
+      "label": "reranker.py",
+      "file_type": "code",
+      "source_file": "src/reranker.py",
+      "source_location": "L1",
+      "id": "reranker",
+      "community": 1
+    },
+    {
+      "label": "Reranker",
+      "file_type": "code",
+      "source_file": "src/reranker.py",
+      "source_location": "L4",
+      "id": "reranker_reranker",
+      "community": 1
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/reranker.py",
+      "source_location": "L6",
+      "id": "reranker_reranker_init",
+      "community": 1
+    },
+    {
+      "label": ".rerank()",
+      "file_type": "code",
+      "source_file": "src/reranker.py",
+      "source_location": "L12",
+      "id": "reranker_reranker_rerank",
+      "community": 1
+    },
+    {
+      "label": "retrieval.py",
+      "file_type": "code",
+      "source_file": "src/retrieval.py",
+      "source_location": "L1",
+      "id": "retrieval",
+      "community": 1
+    },
+    {
+      "label": "Retriever",
+      "file_type": "code",
+      "source_file": "src/retrieval.py",
+      "source_location": "L1",
+      "id": "retrieval_retriever",
+      "community": 1
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/retrieval.py",
+      "source_location": "L2",
+      "id": "retrieval_retriever_init",
+      "community": 1
+    },
+    {
+      "label": ".retrieve()",
+      "file_type": "code",
+      "source_file": "src/retrieval.py",
+      "source_location": "L6",
+      "id": "retrieval_retriever_retrieve",
+      "community": 1
+    },
+    {
+      "label": "vector_store.py",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L1",
+      "id": "vector_store",
+      "community": 4
+    },
+    {
+      "label": "VectorStore",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L8",
+      "id": "vector_store_vectorstore",
+      "community": 4
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L9",
+      "id": "vector_store_vectorstore_init",
+      "community": 4
+    },
+    {
+      "label": ".add()",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L14",
+      "id": "vector_store_vectorstore_add",
+      "community": 4
+    },
+    {
+      "label": ".search()",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L34",
+      "id": "vector_store_vectorstore_search",
+      "community": 4
+    },
+    {
+      "label": ".clear()",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L74",
+      "id": "vector_store_vectorstore_clear",
+      "community": 4
+    },
+    {
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L79",
+      "id": "vector_store_vectorstore_save",
+      "community": 4
+    },
+    {
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "src/vector_store.py",
+      "source_location": "L116",
+      "id": "vector_store_vectorstore_load",
+      "community": 4
+    },
+    {
+      "label": "test_chunking.py",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L1",
+      "id": "test_chunking",
+      "community": 7
+    },
+    {
+      "label": "test_chunk_text_respects_max_size()",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L6",
+      "id": "test_chunking_test_chunk_text_respects_max_size",
+      "community": 7
+    },
+    {
+      "label": "test_chunk_text_splits_oversized_paragraph()",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L24",
+      "id": "test_chunking_test_chunk_text_splits_oversized_paragraph",
+      "community": 7
+    },
+    {
+      "label": "test_chunk_text_overlap_shares_content()",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L41",
+      "id": "test_chunking_test_chunk_text_overlap_shares_content",
+      "community": 7
+    },
+    {
+      "label": "test_chunk_text_validates_args()",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L56",
+      "id": "test_chunking_test_chunk_text_validates_args",
+      "community": 7
+    },
+    {
+      "label": "test_create_chunks_preserves_metadata_with_page()",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L68",
+      "id": "test_chunking_test_create_chunks_preserves_metadata_with_page",
+      "community": 7
+    },
+    {
+      "label": "test_create_chunks_chunk_id_without_page()",
+      "file_type": "code",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L105",
+      "id": "test_chunking_test_create_chunks_chunk_id_without_page",
+      "community": 7
+    },
+    {
+      "label": "test_embeddings.py",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L1",
+      "id": "test_embeddings",
+      "community": 2
+    },
+    {
+      "label": "StubSentenceTransformer",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L6",
+      "id": "test_embeddings_stubsentencetransformer",
+      "community": 2
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L8",
+      "id": "test_embeddings_stubsentencetransformer_init",
+      "community": 2
+    },
+    {
+      "label": ".encode()",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L12",
+      "id": "test_embeddings_stubsentencetransformer_encode",
+      "community": 2
+    },
+    {
+      "label": ".get_embedding_dimension()",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L22",
+      "id": "test_embeddings_stubsentencetransformer_get_embedding_dimension",
+      "community": 2
+    },
+    {
+      "label": "test_document_prefix()",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L26",
+      "id": "test_embeddings_test_document_prefix",
+      "community": 2
+    },
+    {
+      "label": "test_query_prefix()",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L42",
+      "id": "test_embeddings_test_query_prefix",
+      "community": 2
+    },
+    {
+      "label": "test_dimension()",
+      "file_type": "code",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L58",
+      "id": "test_embeddings_test_dimension",
+      "community": 2
+    },
+    {
+      "label": "test_generation.py",
+      "file_type": "code",
+      "source_file": "tests/test_generation.py",
+      "source_location": "L1",
+      "id": "test_generation",
+      "community": 14
+    },
+    {
+      "label": "test_generate_parses_ollama_response()",
+      "file_type": "code",
+      "source_file": "tests/test_generation.py",
+      "source_location": "L7",
+      "id": "test_generation_test_generate_parses_ollama_response",
+      "community": 14
+    },
+    {
+      "label": "test_generate_raises_on_http_error()",
+      "file_type": "code",
+      "source_file": "tests/test_generation.py",
+      "source_location": "L52",
+      "id": "test_generation_test_generate_raises_on_http_error",
+      "community": 14
+    },
+    {
+      "label": "test_ingestion.py",
+      "file_type": "code",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L1",
+      "id": "test_ingestion",
+      "community": 12
+    },
+    {
+      "label": "test_load_pdf_raises_for_missing_file()",
+      "file_type": "code",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L11",
+      "id": "test_ingestion_test_load_pdf_raises_for_missing_file",
+      "community": 12
+    },
+    {
+      "label": "test_load_text()",
+      "file_type": "code",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L17",
+      "id": "test_ingestion_test_load_text",
+      "community": 12
+    },
+    {
+      "label": "test_load_document_unsupported_extension()",
+      "file_type": "code",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L41",
+      "id": "test_ingestion_test_load_document_unsupported_extension",
+      "community": 12
+    },
+    {
+      "label": "test_pdf_ingester_handles_txt()",
+      "file_type": "code",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L51",
+      "id": "test_ingestion_test_pdf_ingester_handles_txt",
+      "community": 12
+    },
+    {
+      "label": "test_pipeline.py",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L1",
+      "id": "test_pipeline",
+      "community": 0
+    },
+    {
+      "label": "FakeEmbeddingModel",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L7",
+      "id": "test_pipeline_fakeembeddingmodel",
+      "community": 0
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L9",
+      "id": "test_pipeline_fakeembeddingmodel_init",
+      "community": 0
+    },
+    {
+      "label": ".encode_documents()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L13",
+      "id": "test_pipeline_fakeembeddingmodel_encode_documents",
+      "community": 0
+    },
+    {
+      "label": ".encode_query()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L19",
+      "id": "test_pipeline_fakeembeddingmodel_encode_query",
+      "community": 0
+    },
+    {
+      "label": "FakeVectorStore",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L28",
+      "id": "test_pipeline_fakevectorstore",
+      "community": 0
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L30",
+      "id": "test_pipeline_fakevectorstore_init",
+      "community": 0
+    },
+    {
+      "label": ".add()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L34",
+      "id": "test_pipeline_fakevectorstore_add",
+      "community": 0
+    },
+    {
+      "label": ".clear()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L37",
+      "id": "test_pipeline_fakevectorstore_clear",
+      "community": 0
+    },
+    {
+      "label": ".search()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L40",
+      "id": "test_pipeline_fakevectorstore_search",
+      "community": 0
+    },
+    {
+      "label": "FakeReranker",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L57",
+      "id": "test_pipeline_fakereranker",
+      "community": 0
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L59",
+      "id": "test_pipeline_fakereranker_init",
+      "community": 0
+    },
+    {
+      "label": ".rerank()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L62",
+      "id": "test_pipeline_fakereranker_rerank",
+      "community": 0
+    },
+    {
+      "label": "FakeGenerator",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L73",
+      "id": "test_pipeline_fakegenerator",
+      "community": 0
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L75",
+      "id": "test_pipeline_fakegenerator_init",
+      "community": 0
+    },
+    {
+      "label": ".generate()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L79",
+      "id": "test_pipeline_fakegenerator_generate",
+      "community": 0
+    },
+    {
+      "label": "build_pipeline()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L85",
+      "id": "test_pipeline_build_pipeline",
+      "community": 0
+    },
+    {
+      "label": "no_real_reranker()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L104",
+      "id": "test_pipeline_no_real_reranker",
+      "community": 0
+    },
+    {
+      "label": "test_pipeline_query()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L111",
+      "id": "test_pipeline_test_pipeline_query",
+      "community": 0
+    },
+    {
+      "label": "test_pipeline_embeds_plain_question_string()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L151",
+      "id": "test_pipeline_test_pipeline_embeds_plain_question_string",
+      "community": 0
+    },
+    {
+      "label": "test_pipeline_prompt_contains_context_and_sources()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L174",
+      "id": "test_pipeline_test_pipeline_prompt_contains_context_and_sources",
+      "community": 0
+    },
+    {
+      "label": "test_pipeline_empty_retrieval_skips_generation()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L202",
+      "id": "test_pipeline_test_pipeline_empty_retrieval_skips_generation",
+      "community": 0
+    },
+    {
+      "label": "test_index_documents_replaces_not_duplicates()",
+      "file_type": "code",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L219",
+      "id": "test_pipeline_test_index_documents_replaces_not_duplicates",
+      "community": 0
+    },
+    {
+      "label": "test_retrieval.py",
+      "file_type": "code",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L1",
+      "id": "test_retrieval",
+      "community": 9
+    },
+    {
+      "label": "test_retriever_passes_plain_query_string()",
+      "file_type": "code",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L7",
+      "id": "test_retrieval_test_retriever_passes_plain_query_string",
+      "community": 9
+    },
+    {
+      "label": "test_retriever_does_not_wrap_query_in_list()",
+      "file_type": "code",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L57",
+      "id": "test_retrieval_test_retriever_does_not_wrap_query_in_list",
+      "community": 9
+    },
+    {
+      "label": "test_bm25_build_requires_documents()",
+      "file_type": "code",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L82",
+      "id": "test_retrieval_test_bm25_build_requires_documents",
+      "community": 9
+    },
+    {
+      "label": "test_bm25_retrieves_relevant_documents()",
+      "file_type": "code",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L89",
+      "id": "test_retrieval_test_bm25_retrieves_relevant_documents",
+      "community": 9
+    },
+    {
+      "label": "test_bm25_returns_empty_for_unrelated_query()",
+      "file_type": "code",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L124",
+      "id": "test_retrieval_test_bm25_returns_empty_for_unrelated_query",
+      "community": 9
+    },
+    {
+      "label": "test_vectorstore.py",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L1",
+      "id": "test_vectorstore",
+      "community": 8
+    },
+    {
+      "label": "test_add_documents()",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L7",
+      "id": "test_vectorstore_test_add_documents",
+      "community": 8
+    },
+    {
+      "label": "test_search_returns_results()",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L41",
+      "id": "test_vectorstore_test_search_returns_results",
+      "community": 8
+    },
+    {
+      "label": "test_save_and_load_roundtrip()",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L77",
+      "id": "test_vectorstore_test_save_and_load_roundtrip",
+      "community": 8
+    },
+    {
+      "label": "test_clear_resets_store()",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L127",
+      "id": "test_vectorstore_test_clear_resets_store",
+      "community": 8
+    },
+    {
+      "label": "test_add_requires_matching_dimension()",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L144",
+      "id": "test_vectorstore_test_add_requires_matching_dimension",
+      "community": 8
+    },
+    {
+      "label": "test_search_returns_empty_when_unpopulated()",
+      "file_type": "code",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L157",
+      "id": "test_vectorstore_test_search_returns_empty_when_unpopulated",
+      "community": 8
+    },
+    {
+      "label": "RAG Study Assistant",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "readme_rag_study_assistant",
+      "community": 17
+    },
+    {
+      "label": "requirements.txt",
+      "file_type": "document",
+      "source_file": "requirements.txt",
+      "id": "requirements_txt",
+      "community": 18
+    },
+    {
+      "label": "Yousef Ahmed AI CV (ATS)",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "yousef_ahmed_ai_cv_ats",
+      "community": 19
+    },
+    {
+      "label": "AI in Data Engineering (SB)",
+      "file_type": "document",
+      "source_file": "data/uploads/AI in Data Engineering(SB).pdf",
+      "id": "ai_in_data_engineering_sb",
+      "community": 20
+    },
+    {
+      "label": "Physics Student Guide (doc-2)",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "doc_2_physics",
+      "community": 21
+    },
+    {
+      "label": "E-Commerce Sales Mini Project",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "ecommerce_sales_mini_project",
+      "community": 22
+    },
+    {
+      "label": "English AI (SB)",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "english_ai_sb",
+      "community": 23
+    },
+    {
+      "label": "Exam Vocabulary Guide",
+      "file_type": "document",
+      "source_file": "data/uploads/\u0645\u0644\u0632\u0645\u0629 \u0644\u064a\u0644\u0629 \u0627\u0644\u0627\u0645\u062a\u062d\u0627\u0646 \u062a\u0627\u0646\u064a\u0647 \u062b\u0627\u0646\u0648\u064a \u0645\u0633 \u0645\u064a \u0645\u062c\u0627\u062f\u064a.pdf",
+      "id": "arabic_exam_vocabulary",
+      "community": 24
+    },
+    {
+      "label": "Streamlit",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "streamlit",
+      "community": 10
+    },
+    {
+      "label": "FAISS",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "faiss",
+      "community": 4
+    },
+    {
+      "label": "Ollama",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "ollama",
+      "community": 25
+    },
+    {
+      "label": "Gemini",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "gemini",
+      "community": 26
+    },
+    {
+      "label": "intfloat/multilingual-e5-base",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "e5_embeddings",
+      "community": 27
+    },
+    {
+      "label": "BAAI/bge-reranker-v2-m3",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "bge_reranker",
+      "community": 28
+    },
+    {
+      "label": "pypdf",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "pypdf",
+      "community": 6
+    },
+    {
+      "label": "Retrieval-Augmented Generation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "rag",
+      "community": 29
+    },
+    {
+      "label": "Dense Retrieval",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "dense_retrieval",
+      "community": 30
+    },
+    {
+      "label": "Reranking",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "reranking",
+      "community": 31
+    },
+    {
+      "label": "Yousef Ahmed",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "yousef_ahmed",
+      "community": 32
+    },
+    {
+      "label": "DistilBERT",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "distilbert",
+      "community": 33
+    },
+    {
+      "label": "PyTorch",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "pytorch",
+      "community": 34
+    },
+    {
+      "label": "TensorFlow",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "tensorflow",
+      "community": 35
+    },
+    {
+      "label": "Keras",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "keras",
+      "community": 36
+    },
+    {
+      "label": "Machine Learning",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "machine_learning",
+      "community": 37
+    },
+    {
+      "label": "Deep Learning",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "deep_learning",
+      "community": 38
+    },
+    {
+      "label": "Natural Language Processing",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "nlp",
+      "community": 39
+    },
+    {
+      "label": "Computer Vision",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "computer_vision",
+      "community": 40
+    },
+    {
+      "label": "Banking77 Intent Classification",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "banking77_intent",
+      "community": 41
+    },
+    {
+      "label": "AG News Text Classification",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "ag_news",
+      "community": 42
+    },
+    {
+      "label": "IMDB Sentiment Analysis",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "imdb_sentiment",
+      "community": 43
+    },
+    {
+      "label": "Netflix User Churn Prediction",
+      "file_type": "document",
+      "source_file": "data/Yousef_Ahmed_AI_CV_ATS.pdf",
+      "id": "netflix_churn",
+      "community": 44
+    },
+    {
+      "label": "Force",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "force",
+      "community": 45
+    },
+    {
+      "label": "Gravitational Force",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "gravitational_force",
+      "community": 46
+    },
+    {
+      "label": "Centripetal Force",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "centripetal_force",
+      "community": 47
+    },
+    {
+      "label": "Friction Force",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "friction_force",
+      "community": 48
+    },
+    {
+      "label": "Viscosity",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "viscosity",
+      "community": 49
+    },
+    {
+      "label": "Lubrication",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "lubrication",
+      "community": 50
+    },
+    {
+      "label": "Heat",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "heat",
+      "community": 51
+    },
+    {
+      "label": "Temperature",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "temperature",
+      "community": 52
+    },
+    {
+      "label": "Thermal Energy",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "thermal_energy",
+      "community": 53
+    },
+    {
+      "label": "Heat Transfer",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "heat_transfer",
+      "community": 54
+    },
+    {
+      "label": "Conduction",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "conduction",
+      "community": 55
+    },
+    {
+      "label": "Convection",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "convection",
+      "community": 56
+    },
+    {
+      "label": "Radiation",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "radiation",
+      "community": 57
+    },
+    {
+      "label": "Specific Heat",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "specific_heat",
+      "community": 58
+    },
+    {
+      "label": "Heat Capacity",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "heat_capacity",
+      "community": 59
+    },
+    {
+      "label": "Thermometer",
+      "file_type": "document",
+      "source_file": "data/uploads/doc-2.pdf",
+      "id": "thermometer",
+      "community": 60
+    },
+    {
+      "label": "Pandas",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "pandas",
+      "community": 61
+    },
+    {
+      "label": "Matplotlib",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "matplotlib",
+      "community": 62
+    },
+    {
+      "label": "Seaborn",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "seaborn",
+      "community": 63
+    },
+    {
+      "label": "GroupBy",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "groupby",
+      "community": 64
+    },
+    {
+      "label": "Data Cleaning",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "data_cleaning",
+      "community": 65
+    },
+    {
+      "label": "Data Visualization",
+      "file_type": "document",
+      "source_file": "data/uploads/Ecommerce_Sales_Mini_Project.pdf",
+      "id": "visualization",
+      "community": 66
+    },
+    {
+      "label": "Neural Networks",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "neural_networks",
+      "community": 67
+    },
+    {
+      "label": "Algorithm",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "algorithm",
+      "community": 68
+    },
+    {
+      "label": "Predictive Analytics",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "predictive_analytics",
+      "community": 69
+    },
+    {
+      "label": "Automation",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "automation",
+      "community": 70
+    },
+    {
+      "label": "Chatbot",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "chatbot",
+      "community": 71
+    },
+    {
+      "label": "Predictive Maintenance",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "predictive_maintenance",
+      "community": 72
+    },
+    {
+      "label": "Recruitment Automation",
+      "file_type": "document",
+      "source_file": "data/uploads/English AI(SB).pdf",
+      "id": "recruitment_automation",
+      "community": 73
+    },
+    {
+      "label": "Sustainability",
+      "file_type": "document",
+      "source_file": "data/uploads/\u0645\u0644\u0632\u0645\u0629 \u0644\u064a\u0644\u0629 \u0627\u0644\u0627\u0645\u062a\u062d\u0627\u0646 \u062a\u0627\u0646\u064a\u0647 \u062b\u0627\u0646\u0648\u064a \u0645\u0633 \u0645\u064a \u0645\u062c\u0627\u062f\u064a.pdf",
+      "id": "sustainability",
+      "community": 74
+    },
+    {
+      "label": "Disaster Preparedness",
+      "file_type": "document",
+      "source_file": "data/uploads/\u0645\u0644\u0632\u0645\u0629 \u0644\u064a\u0644\u0629 \u0627\u0644\u0627\u0645\u062a\u062d\u0627\u0646 \u062a\u0627\u0646\u064a\u0647 \u062b\u0627\u0646\u0648\u064a \u0645\u0633 \u0645\u064a \u0645\u062c\u0627\u062f\u064a.pdf",
+      "id": "disaster_preparedness",
+      "community": 75
+    },
+    {
+      "label": "Media Literacy",
+      "file_type": "document",
+      "source_file": "data/uploads/\u0645\u0644\u0632\u0645\u0629 \u0644\u064a\u0644\u0629 \u0627\u0644\u0627\u0645\u062a\u062d\u0627\u0646 \u062a\u0627\u0646\u064a\u0647 \u062b\u0627\u0646\u0648\u064a \u0645\u0633 \u0645\u064a \u0645\u062c\u0627\u062f\u064a.pdf",
+      "id": "media_literacy",
+      "community": 76
+    },
+    {
+      "label": "Career Skills",
+      "file_type": "document",
+      "source_file": "data/uploads/\u0645\u0644\u0632\u0645\u0629 \u0644\u064a\u0644\u0629 \u0627\u0644\u0627\u0645\u062a\u062d\u0627\u0646 \u062a\u0627\u0646\u064a\u0647 \u062b\u0627\u0646\u0648\u064a \u0645\u0633 \u0645\u064a \u0645\u062c\u0627\u062f\u064a.pdf",
+      "id": "career_skills",
+      "community": 77
+    },
+    {
+      "label": "AI in Data Engineering",
+      "file_type": "document",
+      "source_file": "data/uploads/AI in Data Engineering(SB).pdf",
+      "id": "ai_in_data_engineering",
+      "community": 78
+    },
+    {
+      "label": "Data Engineering",
+      "file_type": "document",
+      "source_file": "data/uploads/AI in Data Engineering(SB).pdf",
+      "id": "data_engineering",
+      "community": 79
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "app",
+      "_tgt": "streamlit",
+      "source": "app",
+      "target": "streamlit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_src": "app",
+      "_tgt": "app_create_pipeline",
+      "source": "app",
+      "target": "app_create_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_src": "app",
+      "_tgt": "app_get_pipeline",
+      "source": "app",
+      "target": "app_get_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "_src": "app",
+      "_tgt": "app_load_existing_index",
+      "source": "app",
+      "target": "app_load_existing_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "app.py",
+      "source_location": "L167",
+      "weight": 0.8,
+      "_src": "app_get_pipeline",
+      "_tgt": "app_create_pipeline",
+      "source": "app_create_pipeline",
+      "target": "app_get_pipeline",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "app.py",
+      "source_location": "L178",
+      "weight": 0.8,
+      "_src": "app_load_existing_index",
+      "_tgt": "app_get_pipeline",
+      "source": "app_get_pipeline",
+      "target": "app_load_existing_index",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_load_questions",
+      "source": "evaluate",
+      "target": "evaluate_load_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_hit_at_k",
+      "source": "evaluate",
+      "target": "evaluate_hit_at_k",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_recall_at_k",
+      "source": "evaluate",
+      "target": "evaluate_recall_at_k",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_precision_at_k",
+      "source": "evaluate",
+      "target": "evaluate_precision_at_k",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_reciprocal_rank_at_k",
+      "source": "evaluate",
+      "target": "evaluate_reciprocal_rank_at_k",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_evaluate_retriever",
+      "source": "evaluate",
+      "target": "evaluate_evaluate_retriever",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L364",
+      "weight": 1.0,
+      "_src": "evaluate",
+      "_tgt": "evaluate_main",
+      "source": "evaluate",
+      "target": "evaluate_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L374",
+      "weight": 0.8,
+      "_src": "evaluate_main",
+      "_tgt": "evaluate_load_questions",
+      "source": "evaluate_load_questions",
+      "target": "evaluate_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L262",
+      "weight": 0.8,
+      "_src": "evaluate_evaluate_retriever",
+      "_tgt": "evaluate_hit_at_k",
+      "source": "evaluate_hit_at_k",
+      "target": "evaluate_evaluate_retriever",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L270",
+      "weight": 0.8,
+      "_src": "evaluate_evaluate_retriever",
+      "_tgt": "evaluate_recall_at_k",
+      "source": "evaluate_recall_at_k",
+      "target": "evaluate_evaluate_retriever",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L278",
+      "weight": 0.8,
+      "_src": "evaluate_evaluate_retriever",
+      "_tgt": "evaluate_precision_at_k",
+      "source": "evaluate_precision_at_k",
+      "target": "evaluate_evaluate_retriever",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L286",
+      "weight": 0.8,
+      "_src": "evaluate_evaluate_retriever",
+      "_tgt": "evaluate_reciprocal_rank_at_k",
+      "source": "evaluate_reciprocal_rank_at_k",
+      "target": "evaluate_evaluate_retriever",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate.py",
+      "source_location": "L583",
+      "weight": 0.8,
+      "_src": "evaluate_main",
+      "_tgt": "evaluate_evaluate_retriever",
+      "source": "evaluate_evaluate_retriever",
+      "target": "evaluate_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_load_env_file",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_load_env_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_load_json",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_load_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_save_json",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_save_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_parse_judge_json",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_parse_judge_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_is_transient",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_is_transient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_retry",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_retry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_geminigenerator",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_geminigenerator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_build_pipeline",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_build_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_judge_answer",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_judge_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "_src": "evaluate_generation",
+      "_tgt": "evaluate_generation_main",
+      "source": "evaluate_generation",
+      "target": "evaluate_generation_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L219",
+      "weight": 0.8,
+      "_src": "evaluate_generation_main",
+      "_tgt": "evaluate_generation_load_env_file",
+      "source": "evaluate_generation_load_env_file",
+      "target": "evaluate_generation_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L232",
+      "weight": 0.8,
+      "_src": "evaluate_generation_main",
+      "_tgt": "evaluate_generation_load_json",
+      "source": "evaluate_generation_load_json",
+      "target": "evaluate_generation_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L297",
+      "weight": 0.8,
+      "_src": "evaluate_generation_main",
+      "_tgt": "evaluate_generation_save_json",
+      "source": "evaluate_generation_save_json",
+      "target": "evaluate_generation_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L204",
+      "weight": 0.8,
+      "_src": "evaluate_generation_judge_answer",
+      "_tgt": "evaluate_generation_parse_judge_json",
+      "source": "evaluate_generation_parse_judge_json",
+      "target": "evaluate_generation_judge_answer",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L91",
+      "weight": 0.8,
+      "_src": "evaluate_generation_retry",
+      "_tgt": "evaluate_generation_is_transient",
+      "source": "evaluate_generation_is_transient",
+      "target": "evaluate_generation_retry",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L118",
+      "weight": 0.8,
+      "_src": "evaluate_generation_geminigenerator_generate",
+      "_tgt": "evaluate_generation_retry",
+      "source": "evaluate_generation_retry",
+      "target": "evaluate_generation_geminigenerator_generate",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L203",
+      "weight": 0.8,
+      "_src": "evaluate_generation_judge_answer",
+      "_tgt": "evaluate_generation_retry",
+      "source": "evaluate_generation_retry",
+      "target": "evaluate_generation_judge_answer",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "evaluate_generation_geminigenerator_init",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "evaluate_generation_geminigenerator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "evaluate_generation_geminigenerator_generate",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "evaluate_generation_geminigenerator_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L257",
+      "weight": 0.8,
+      "_src": "evaluate_generation_main",
+      "_tgt": "evaluate_generation_geminigenerator",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "evaluate_generation_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L124",
+      "weight": 0.8,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "chunking_chunker",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "chunking_chunker",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L125",
+      "weight": 0.8,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "embeddings_embeddingmodel",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "embeddings_embeddingmodel",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L126",
+      "weight": 0.8,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "ingestion_pdfingester",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "ingestion_pdfingester",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L127",
+      "weight": 0.8,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "pipeline_ragpipeline",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "pipeline_ragpipeline",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L128",
+      "weight": 0.8,
+      "_src": "evaluate_generation_geminigenerator",
+      "_tgt": "vector_store_vectorstore",
+      "source": "evaluate_generation_geminigenerator",
+      "target": "vector_store_vectorstore",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L257",
+      "weight": 0.8,
+      "_src": "evaluate_generation_main",
+      "_tgt": "evaluate_generation_build_pipeline",
+      "source": "evaluate_generation_build_pipeline",
+      "target": "evaluate_generation_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "evaluations/evaluate_generation.py",
+      "source_location": "L270",
+      "weight": 0.8,
+      "_src": "evaluate_generation_main",
+      "_tgt": "evaluate_generation_judge_answer",
+      "source": "evaluate_generation_judge_answer",
+      "target": "evaluate_generation_main",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/chunking.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "chunking",
+      "_tgt": "chunking_chunk_text",
+      "source": "chunking",
+      "target": "chunking_chunk_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/chunking.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_src": "chunking",
+      "_tgt": "chunking_create_chunks",
+      "source": "chunking",
+      "target": "chunking_create_chunks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/chunking.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_src": "chunking",
+      "_tgt": "chunking_chunker",
+      "source": "chunking",
+      "target": "chunking_chunker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/chunking.py",
+      "source_location": "L80",
+      "weight": 0.8,
+      "_src": "chunking_create_chunks",
+      "_tgt": "chunking_chunk_text",
+      "source": "chunking_chunk_text",
+      "target": "chunking_create_chunks",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/chunking.py",
+      "source_location": "L119",
+      "weight": 0.8,
+      "_src": "chunking_chunker_chunk",
+      "_tgt": "chunking_create_chunks",
+      "source": "chunking_create_chunks",
+      "target": "chunking_chunker_chunk",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/chunking.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_src": "chunking_chunker",
+      "_tgt": "chunking_chunker_chunk",
+      "source": "chunking_chunker",
+      "target": "chunking_chunker_chunk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/embeddings.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "embeddings",
+      "_tgt": "embeddings_embeddingmodel",
+      "source": "embeddings",
+      "target": "embeddings_embeddingmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/embeddings.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "embeddings_embeddingmodel",
+      "_tgt": "embeddings_embeddingmodel_init",
+      "source": "embeddings_embeddingmodel",
+      "target": "embeddings_embeddingmodel_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/embeddings.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "embeddings_embeddingmodel",
+      "_tgt": "embeddings_embeddingmodel_encode_documents",
+      "source": "embeddings_embeddingmodel",
+      "target": "embeddings_embeddingmodel_encode_documents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/embeddings.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "embeddings_embeddingmodel",
+      "_tgt": "embeddings_embeddingmodel_encode_query",
+      "source": "embeddings_embeddingmodel",
+      "target": "embeddings_embeddingmodel_encode_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/embeddings.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "embeddings_embeddingmodel",
+      "_tgt": "embeddings_embeddingmodel_dimension",
+      "source": "embeddings_embeddingmodel",
+      "target": "embeddings_embeddingmodel_dimension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "test_embeddings_stubsentencetransformer",
+      "_tgt": "embeddings_embeddingmodel",
+      "source": "embeddings_embeddingmodel",
+      "target": "test_embeddings_stubsentencetransformer",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generation.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "generation",
+      "_tgt": "generation_generator",
+      "source": "generation",
+      "target": "generation_generator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generation.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "generation_generator",
+      "_tgt": "generation_generator_init",
+      "source": "generation_generator",
+      "target": "generation_generator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generation.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "generation_generator",
+      "_tgt": "generation_generator_generate",
+      "source": "generation_generator",
+      "target": "generation_generator_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "ingestion",
+      "_tgt": "pypdf",
+      "source": "ingestion",
+      "target": "pypdf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "ingestion",
+      "_tgt": "ingestion_load_pdf",
+      "source": "ingestion",
+      "target": "ingestion_load_pdf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "ingestion",
+      "_tgt": "ingestion_load_text",
+      "source": "ingestion",
+      "target": "ingestion_load_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_src": "ingestion",
+      "_tgt": "ingestion_load_document",
+      "source": "ingestion",
+      "target": "ingestion_load_document",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_src": "ingestion",
+      "_tgt": "ingestion_pdfingester",
+      "source": "ingestion",
+      "target": "ingestion_pdfingester",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L79",
+      "weight": 0.8,
+      "_src": "ingestion_load_document",
+      "_tgt": "ingestion_load_pdf",
+      "source": "ingestion_load_pdf",
+      "target": "ingestion_load_document",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L76",
+      "weight": 0.8,
+      "_src": "ingestion_load_document",
+      "_tgt": "ingestion_load_text",
+      "source": "ingestion_load_text",
+      "target": "ingestion_load_document",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L89",
+      "weight": 0.8,
+      "_src": "ingestion_pdfingester_ingest",
+      "_tgt": "ingestion_load_document",
+      "source": "ingestion_load_document",
+      "target": "ingestion_pdfingester_ingest",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ingestion.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_src": "ingestion_pdfingester",
+      "_tgt": "ingestion_pdfingester_ingest",
+      "source": "ingestion_pdfingester",
+      "target": "ingestion_pdfingester_ingest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "pipeline",
+      "_tgt": "pipeline_ragpipeline",
+      "source": "pipeline",
+      "target": "pipeline_ragpipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_init",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_choose_top_k",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_choose_top_k",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_index_documents",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_index_documents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_save_index",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_save_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_load_index",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_load_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_query",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L201",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_build_prompt",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_build_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L266",
+      "weight": 1.0,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "pipeline_ragpipeline_build_sources",
+      "source": "pipeline_ragpipeline",
+      "target": "pipeline_ragpipeline_build_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "reranker_reranker",
+      "source": "pipeline_ragpipeline",
+      "target": "reranker_reranker",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "pipeline_ragpipeline",
+      "_tgt": "retrieval_retriever",
+      "source": "pipeline_ragpipeline",
+      "target": "retrieval_retriever",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_pipeline_fakeembeddingmodel",
+      "_tgt": "pipeline_ragpipeline",
+      "source": "pipeline_ragpipeline",
+      "target": "test_pipeline_fakeembeddingmodel",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_pipeline_fakevectorstore",
+      "_tgt": "pipeline_ragpipeline",
+      "source": "pipeline_ragpipeline",
+      "target": "test_pipeline_fakevectorstore",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_pipeline_fakereranker",
+      "_tgt": "pipeline_ragpipeline",
+      "source": "pipeline_ragpipeline",
+      "target": "test_pipeline_fakereranker",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_src": "test_pipeline_fakegenerator",
+      "_tgt": "pipeline_ragpipeline",
+      "source": "pipeline_ragpipeline",
+      "target": "test_pipeline_fakegenerator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L137",
+      "weight": 0.8,
+      "_src": "pipeline_ragpipeline_query",
+      "_tgt": "pipeline_ragpipeline_choose_top_k",
+      "source": "pipeline_ragpipeline_choose_top_k",
+      "target": "pipeline_ragpipeline_query",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L174",
+      "weight": 0.8,
+      "_src": "pipeline_ragpipeline_query",
+      "_tgt": "pipeline_ragpipeline_build_prompt",
+      "source": "pipeline_ragpipeline_query",
+      "target": "pipeline_ragpipeline_build_prompt",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "src/pipeline.py",
+      "source_location": "L187",
+      "weight": 0.8,
+      "_src": "pipeline_ragpipeline_query",
+      "_tgt": "pipeline_ragpipeline_build_sources",
+      "source": "pipeline_ragpipeline_query",
+      "target": "pipeline_ragpipeline_build_sources",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/reranker.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "reranker",
+      "_tgt": "reranker_reranker",
+      "source": "reranker",
+      "target": "reranker_reranker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/reranker.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "reranker_reranker",
+      "_tgt": "reranker_reranker_init",
+      "source": "reranker_reranker",
+      "target": "reranker_reranker_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/reranker.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "reranker_reranker",
+      "_tgt": "reranker_reranker_rerank",
+      "source": "reranker_reranker",
+      "target": "reranker_reranker_rerank",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/retrieval.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "retrieval",
+      "_tgt": "retrieval_retriever",
+      "source": "retrieval",
+      "target": "retrieval_retriever",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/retrieval.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_src": "retrieval_retriever",
+      "_tgt": "retrieval_retriever_init",
+      "source": "retrieval_retriever",
+      "target": "retrieval_retriever_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/retrieval.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "retrieval_retriever",
+      "_tgt": "retrieval_retriever_retrieve",
+      "source": "retrieval_retriever",
+      "target": "retrieval_retriever_retrieve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "vector_store",
+      "_tgt": "faiss",
+      "source": "vector_store",
+      "target": "faiss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "vector_store",
+      "_tgt": "vector_store_vectorstore",
+      "source": "vector_store",
+      "target": "vector_store_vectorstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "vector_store_vectorstore",
+      "_tgt": "vector_store_vectorstore_init",
+      "source": "vector_store_vectorstore",
+      "target": "vector_store_vectorstore_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "vector_store_vectorstore",
+      "_tgt": "vector_store_vectorstore_add",
+      "source": "vector_store_vectorstore",
+      "target": "vector_store_vectorstore_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "vector_store_vectorstore",
+      "_tgt": "vector_store_vectorstore_search",
+      "source": "vector_store_vectorstore",
+      "target": "vector_store_vectorstore_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_src": "vector_store_vectorstore",
+      "_tgt": "vector_store_vectorstore_clear",
+      "source": "vector_store_vectorstore",
+      "target": "vector_store_vectorstore_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "vector_store_vectorstore",
+      "_tgt": "vector_store_vectorstore_save",
+      "source": "vector_store_vectorstore",
+      "target": "vector_store_vectorstore_save",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/vector_store.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_src": "vector_store_vectorstore",
+      "_tgt": "vector_store_vectorstore_load",
+      "source": "vector_store_vectorstore",
+      "target": "vector_store_vectorstore_load",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "test_chunking",
+      "_tgt": "test_chunking_test_chunk_text_respects_max_size",
+      "source": "test_chunking",
+      "target": "test_chunking_test_chunk_text_respects_max_size",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "test_chunking",
+      "_tgt": "test_chunking_test_chunk_text_splits_oversized_paragraph",
+      "source": "test_chunking",
+      "target": "test_chunking_test_chunk_text_splits_oversized_paragraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "test_chunking",
+      "_tgt": "test_chunking_test_chunk_text_overlap_shares_content",
+      "source": "test_chunking",
+      "target": "test_chunking_test_chunk_text_overlap_shares_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "test_chunking",
+      "_tgt": "test_chunking_test_chunk_text_validates_args",
+      "source": "test_chunking",
+      "target": "test_chunking_test_chunk_text_validates_args",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_src": "test_chunking",
+      "_tgt": "test_chunking_test_create_chunks_preserves_metadata_with_page",
+      "source": "test_chunking",
+      "target": "test_chunking_test_create_chunks_preserves_metadata_with_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_chunking.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_src": "test_chunking",
+      "_tgt": "test_chunking_test_create_chunks_chunk_id_without_page",
+      "source": "test_chunking",
+      "target": "test_chunking_test_create_chunks_chunk_id_without_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "test_embeddings",
+      "_tgt": "test_embeddings_stubsentencetransformer",
+      "source": "test_embeddings",
+      "target": "test_embeddings_stubsentencetransformer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_src": "test_embeddings",
+      "_tgt": "test_embeddings_test_document_prefix",
+      "source": "test_embeddings",
+      "target": "test_embeddings_test_document_prefix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_src": "test_embeddings",
+      "_tgt": "test_embeddings_test_query_prefix",
+      "source": "test_embeddings",
+      "target": "test_embeddings_test_query_prefix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_src": "test_embeddings",
+      "_tgt": "test_embeddings_test_dimension",
+      "source": "test_embeddings",
+      "target": "test_embeddings_test_dimension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_src": "test_embeddings_stubsentencetransformer",
+      "_tgt": "test_embeddings_stubsentencetransformer_init",
+      "source": "test_embeddings_stubsentencetransformer",
+      "target": "test_embeddings_stubsentencetransformer_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_src": "test_embeddings_stubsentencetransformer",
+      "_tgt": "test_embeddings_stubsentencetransformer_encode",
+      "source": "test_embeddings_stubsentencetransformer",
+      "target": "test_embeddings_stubsentencetransformer_encode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_embeddings.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_src": "test_embeddings_stubsentencetransformer",
+      "_tgt": "test_embeddings_stubsentencetransformer_get_embedding_dimension",
+      "source": "test_embeddings_stubsentencetransformer",
+      "target": "test_embeddings_stubsentencetransformer_get_embedding_dimension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_generation.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "test_generation",
+      "_tgt": "test_generation_test_generate_parses_ollama_response",
+      "source": "test_generation",
+      "target": "test_generation_test_generate_parses_ollama_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_generation.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "test_generation",
+      "_tgt": "test_generation_test_generate_raises_on_http_error",
+      "source": "test_generation",
+      "target": "test_generation_test_generate_raises_on_http_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_src": "test_ingestion",
+      "_tgt": "test_ingestion_test_load_pdf_raises_for_missing_file",
+      "source": "test_ingestion",
+      "target": "test_ingestion_test_load_pdf_raises_for_missing_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "test_ingestion",
+      "_tgt": "test_ingestion_test_load_text",
+      "source": "test_ingestion",
+      "target": "test_ingestion_test_load_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "test_ingestion",
+      "_tgt": "test_ingestion_test_load_document_unsupported_extension",
+      "source": "test_ingestion",
+      "target": "test_ingestion_test_load_document_unsupported_extension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_ingestion.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_src": "test_ingestion",
+      "_tgt": "test_ingestion_test_pdf_ingester_handles_txt",
+      "source": "test_ingestion",
+      "target": "test_ingestion_test_pdf_ingester_handles_txt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_fakeembeddingmodel",
+      "source": "test_pipeline",
+      "target": "test_pipeline_fakeembeddingmodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_fakevectorstore",
+      "source": "test_pipeline",
+      "target": "test_pipeline_fakevectorstore",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_fakereranker",
+      "source": "test_pipeline",
+      "target": "test_pipeline_fakereranker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_fakegenerator",
+      "source": "test_pipeline",
+      "target": "test_pipeline_fakegenerator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_build_pipeline",
+      "source": "test_pipeline",
+      "target": "test_pipeline_build_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_no_real_reranker",
+      "source": "test_pipeline",
+      "target": "test_pipeline_no_real_reranker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_test_pipeline_query",
+      "source": "test_pipeline",
+      "target": "test_pipeline_test_pipeline_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_test_pipeline_embeds_plain_question_string",
+      "source": "test_pipeline",
+      "target": "test_pipeline_test_pipeline_embeds_plain_question_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_test_pipeline_prompt_contains_context_and_sources",
+      "source": "test_pipeline",
+      "target": "test_pipeline_test_pipeline_prompt_contains_context_and_sources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L202",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_test_pipeline_empty_retrieval_skips_generation",
+      "source": "test_pipeline",
+      "target": "test_pipeline_test_pipeline_empty_retrieval_skips_generation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "_src": "test_pipeline",
+      "_tgt": "test_pipeline_test_index_documents_replaces_not_duplicates",
+      "source": "test_pipeline",
+      "target": "test_pipeline_test_index_documents_replaces_not_duplicates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakeembeddingmodel",
+      "_tgt": "test_pipeline_fakeembeddingmodel_init",
+      "source": "test_pipeline_fakeembeddingmodel",
+      "target": "test_pipeline_fakeembeddingmodel_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakeembeddingmodel",
+      "_tgt": "test_pipeline_fakeembeddingmodel_encode_documents",
+      "source": "test_pipeline_fakeembeddingmodel",
+      "target": "test_pipeline_fakeembeddingmodel_encode_documents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakeembeddingmodel",
+      "_tgt": "test_pipeline_fakeembeddingmodel_encode_query",
+      "source": "test_pipeline_fakeembeddingmodel",
+      "target": "test_pipeline_fakeembeddingmodel_encode_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L86",
+      "weight": 0.8,
+      "_src": "test_pipeline_build_pipeline",
+      "_tgt": "test_pipeline_fakeembeddingmodel",
+      "source": "test_pipeline_fakeembeddingmodel",
+      "target": "test_pipeline_build_pipeline",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakevectorstore",
+      "_tgt": "test_pipeline_fakevectorstore_init",
+      "source": "test_pipeline_fakevectorstore",
+      "target": "test_pipeline_fakevectorstore_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakevectorstore",
+      "_tgt": "test_pipeline_fakevectorstore_add",
+      "source": "test_pipeline_fakevectorstore",
+      "target": "test_pipeline_fakevectorstore_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakevectorstore",
+      "_tgt": "test_pipeline_fakevectorstore_clear",
+      "source": "test_pipeline_fakevectorstore",
+      "target": "test_pipeline_fakevectorstore_clear",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakevectorstore",
+      "_tgt": "test_pipeline_fakevectorstore_search",
+      "source": "test_pipeline_fakevectorstore",
+      "target": "test_pipeline_fakevectorstore_search",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L87",
+      "weight": 0.8,
+      "_src": "test_pipeline_build_pipeline",
+      "_tgt": "test_pipeline_fakevectorstore",
+      "source": "test_pipeline_fakevectorstore",
+      "target": "test_pipeline_build_pipeline",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakereranker",
+      "_tgt": "test_pipeline_fakereranker_init",
+      "source": "test_pipeline_fakereranker",
+      "target": "test_pipeline_fakereranker_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakereranker",
+      "_tgt": "test_pipeline_fakereranker_rerank",
+      "source": "test_pipeline_fakereranker",
+      "target": "test_pipeline_fakereranker_rerank",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L98",
+      "weight": 0.8,
+      "_src": "test_pipeline_build_pipeline",
+      "_tgt": "test_pipeline_fakereranker",
+      "source": "test_pipeline_fakereranker",
+      "target": "test_pipeline_build_pipeline",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakegenerator",
+      "_tgt": "test_pipeline_fakegenerator_init",
+      "source": "test_pipeline_fakegenerator",
+      "target": "test_pipeline_fakegenerator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "test_pipeline_fakegenerator",
+      "_tgt": "test_pipeline_fakegenerator_generate",
+      "source": "test_pipeline_fakegenerator",
+      "target": "test_pipeline_fakegenerator_generate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L88",
+      "weight": 0.8,
+      "_src": "test_pipeline_build_pipeline",
+      "_tgt": "test_pipeline_fakegenerator",
+      "source": "test_pipeline_fakegenerator",
+      "target": "test_pipeline_build_pipeline",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L113",
+      "weight": 0.8,
+      "_src": "test_pipeline_test_pipeline_query",
+      "_tgt": "test_pipeline_build_pipeline",
+      "source": "test_pipeline_build_pipeline",
+      "target": "test_pipeline_test_pipeline_query",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L153",
+      "weight": 0.8,
+      "_src": "test_pipeline_test_pipeline_embeds_plain_question_string",
+      "_tgt": "test_pipeline_build_pipeline",
+      "source": "test_pipeline_build_pipeline",
+      "target": "test_pipeline_test_pipeline_embeds_plain_question_string",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L176",
+      "weight": 0.8,
+      "_src": "test_pipeline_test_pipeline_prompt_contains_context_and_sources",
+      "_tgt": "test_pipeline_build_pipeline",
+      "source": "test_pipeline_build_pipeline",
+      "target": "test_pipeline_test_pipeline_prompt_contains_context_and_sources",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L204",
+      "weight": 0.8,
+      "_src": "test_pipeline_test_pipeline_empty_retrieval_skips_generation",
+      "_tgt": "test_pipeline_build_pipeline",
+      "source": "test_pipeline_build_pipeline",
+      "target": "test_pipeline_test_pipeline_empty_retrieval_skips_generation",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_pipeline.py",
+      "source_location": "L221",
+      "weight": 0.8,
+      "_src": "test_pipeline_test_index_documents_replaces_not_duplicates",
+      "_tgt": "test_pipeline_build_pipeline",
+      "source": "test_pipeline_build_pipeline",
+      "target": "test_pipeline_test_index_documents_replaces_not_duplicates",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "test_retrieval",
+      "_tgt": "test_retrieval_test_retriever_passes_plain_query_string",
+      "source": "test_retrieval",
+      "target": "test_retrieval_test_retriever_passes_plain_query_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "test_retrieval",
+      "_tgt": "test_retrieval_test_retriever_does_not_wrap_query_in_list",
+      "source": "test_retrieval",
+      "target": "test_retrieval_test_retriever_does_not_wrap_query_in_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_src": "test_retrieval",
+      "_tgt": "test_retrieval_test_bm25_build_requires_documents",
+      "source": "test_retrieval",
+      "target": "test_retrieval_test_bm25_build_requires_documents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_src": "test_retrieval",
+      "_tgt": "test_retrieval_test_bm25_retrieves_relevant_documents",
+      "source": "test_retrieval",
+      "target": "test_retrieval_test_bm25_retrieves_relevant_documents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_retrieval.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_src": "test_retrieval",
+      "_tgt": "test_retrieval_test_bm25_returns_empty_for_unrelated_query",
+      "source": "test_retrieval",
+      "target": "test_retrieval_test_bm25_returns_empty_for_unrelated_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "test_vectorstore",
+      "_tgt": "test_vectorstore_test_add_documents",
+      "source": "test_vectorstore",
+      "target": "test_vectorstore_test_add_documents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_src": "test_vectorstore",
+      "_tgt": "test_vectorstore_test_search_returns_results",
+      "source": "test_vectorstore",
+      "target": "test_vectorstore_test_search_returns_results",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_src": "test_vectorstore",
+      "_tgt": "test_vectorstore_test_save_and_load_roundtrip",
+      "source": "test_vectorstore",
+      "target": "test_vectorstore_test_save_and_load_roundtrip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_src": "test_vectorstore",
+      "_tgt": "test_vectorstore_test_clear_resets_store",
+      "source": "test_vectorstore",
+      "target": "test_vectorstore_test_clear_resets_store",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_src": "test_vectorstore",
+      "_tgt": "test_vectorstore_test_add_requires_matching_dimension",
+      "source": "test_vectorstore",
+      "target": "test_vectorstore_test_add_requires_matching_dimension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_vectorstore.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_src": "test_vectorstore",
+      "_tgt": "test_vectorstore_test_search_returns_empty_when_unpopulated",
+      "source": "test_vectorstore",
+      "target": "test_vectorstore_test_search_returns_empty_when_unpopulated",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

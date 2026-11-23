@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import streamlit as st
@@ -28,59 +29,102 @@ st.set_page_config(
 st.markdown(
     """
     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-    /* Main container */
+    html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+
     .block-container {
-        max-width: 1200px;
-        padding-top: 2rem;
+        max-width: 1280px;
+        padding-top: 1.5rem;
         padding-bottom: 3rem;
     }
 
-    /* Header */
     .app-title {
-        font-size: 2.4rem;
-        font-weight: 700;
-        margin-bottom: 0.2rem;
+        font-size: 2.8rem;
+        font-weight: 800;
+        margin-bottom: 0.1rem;
+        background: linear-gradient(90deg, #6366f1, #8b5cf6, #ec4899, #f59e0b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        letter-spacing: -0.02em;
     }
 
     .app-subtitle {
-        font-size: 1.05rem;
-        color: #777;
-        margin-bottom: 2rem;
+        font-size: 1.1rem;
+        color: #9ca3af;
+        margin-bottom: 1.6rem;
     }
 
-    /* Cards */
+    .hero-card {
+        padding: 1.6rem 1.8rem;
+        border-radius: 16px;
+        background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(139,92,246,0.10), rgba(236,72,153,0.08));
+        border: 1px solid rgba(99,102,241,0.25);
+        box-shadow: 0 8px 24px rgba(99,102,241,0.12);
+        margin-bottom: 1.6rem;
+    }
+
+    .pill {
+        display: inline-block;
+        padding: 0.25rem 0.7rem;
+        margin: 0.15rem 0.3rem 0.15rem 0;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        font-weight: 500;
+        background: rgba(99,102,241,0.12);
+        border: 1px solid rgba(99,102,241,0.3);
+        color: #a5b4fc;
+    }
+
     .source-card {
         padding: 1rem 1.1rem;
-        border: 1px solid rgba(128, 128, 128, 0.25);
-        border-radius: 10px;
+        border: 1px solid rgba(99,102,241,0.2);
+        border-radius: 14px;
         margin-bottom: 0.8rem;
-        background-color: rgba(128, 128, 128, 0.04);
+        background: linear-gradient(135deg, rgba(99,102,241,0.05), rgba(139,92,246,0.04));
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .source-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(99,102,241,0.15);
     }
 
-    .source-title {
-        font-weight: 600;
-        margin-bottom: 0.3rem;
-    }
+    .source-title { font-weight: 600; margin-bottom: 0.3rem; }
+    .source-meta { font-size: 0.85rem; color: #9ca3af; }
 
-    .source-meta {
-        font-size: 0.85rem;
-        color: #777;
+    .status-ready, .status-warning {
+        padding: 0.7rem 0.9rem;
+        border-radius: 10px;
+        font-weight: 500;
     }
-
-    /* Status */
     .status-ready {
-        padding: 0.6rem 0.8rem;
-        border-radius: 8px;
-        background-color: rgba(0, 180, 100, 0.10);
-        border: 1px solid rgba(0, 180, 100, 0.25);
+        background: rgba(34,197,94,0.10);
+        border: 1px solid rgba(34,197,94,0.30);
+        color: #4ade80;
+    }
+    .status-warning {
+        background: rgba(251,191,36,0.10);
+        border: 1px solid rgba(251,191,36,0.30);
+        color: #fbbf24;
     }
 
-    .status-warning {
-        padding: 0.6rem 0.8rem;
-        border-radius: 8px;
-        background-color: rgba(255, 170, 0, 0.10);
-        border: 1px solid rgba(255, 170, 0, 0.25);
+    div.stButton > button[kind="primary"] {
+        background: linear-gradient(90deg, #6366f1, #8b5cf6);
+        border: none;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.5rem 1.4rem;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    div.stButton > button[kind="primary"]:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(99,102,241,0.35);
+    }
+
+    section[data-testid="stSidebar"] {
+        background: linear-gradient(180deg, rgba(99,102,241,0.06), rgba(15,15,20,0.0));
     }
 
     </style>
@@ -133,7 +177,7 @@ if "question" not in st.session_state:
 # ============================================================
 
 @st.cache_resource
-def create_pipeline():
+def create_pipeline(provider: str = "auto"):
 
     embedding_model = EmbeddingModel(model_name="intfloat/multilingual-e5-base")
 
@@ -143,10 +187,22 @@ def create_pipeline():
 
     chunker = Chunker()
 
-    generator = Generator(
-        model_name="gemma4:31b-cloud",
-        base_url="http://localhost:11434",
+    use_gemini = (provider == "gemini") or (
+        provider == "auto"
+        and bool(os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY"))
     )
+
+    if use_gemini:
+        from src.generation import GeminiGenerator
+
+        generator = GeminiGenerator(
+            model_name=os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite"),
+        )
+    else:
+        generator = Generator(
+            model_name="gemma4:31b-cloud",
+            base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
+        )
 
     pipeline = RAGPipeline(
         embedding_model=embedding_model,
@@ -159,12 +215,12 @@ def create_pipeline():
     return pipeline
 
 
-def get_pipeline():
+def get_pipeline(provider: str = "auto"):
 
     if st.session_state.pipeline is None:
 
         with st.spinner("Loading AI Study Assistant..."):
-            st.session_state.pipeline = create_pipeline()
+            st.session_state.pipeline = create_pipeline(provider)
 
     return st.session_state.pipeline
 
@@ -175,7 +231,7 @@ def get_pipeline():
 
 def load_existing_index():
 
-    pipeline = get_pipeline()
+    pipeline = get_pipeline(st.session_state.get("provider", "auto"))
 
     pipeline.load_index(
         index_path=str(INDEX_PATH),
@@ -200,6 +256,20 @@ st.markdown(
     Ask questions about your study materials and get answers grounded in
     the documents you provide.
     </div>
+    <div class="hero-card">
+      <div style="font-size:1.15rem;font-weight:600;margin-bottom:0.4rem;">Welcome 👋</div>
+      <div style="color:#cbd5e1;font-size:0.95rem;">
+        Upload PDFs or TXT files in the sidebar, build the knowledge base,
+        then ask anything. Answers are grounded in your documents and cite
+        their sources.
+      </div>
+      <div style="margin-top:0.8rem;">
+        <span class="pill">RAG</span>
+        <span class="pill">FAISS</span>
+        <span class="pill">Ollama / Gemini</span>
+        <span class="pill">Reranking</span>
+      </div>
+    </div>
     """,
     unsafe_allow_html=True,
 )
@@ -210,6 +280,21 @@ st.markdown(
 # ============================================================
 
 with st.sidebar:
+
+    st.header("Settings")
+
+    provider = st.selectbox(
+        "AI provider",
+        ["auto", "gemini", "ollama"],
+        index=0,
+        help="auto uses Gemini if GEMINI_API_KEY is set, else Ollama.",
+    )
+
+    if st.session_state.get("provider") != provider:
+        st.session_state.provider = provider
+        st.session_state.pipeline = None
+
+    st.divider()
 
     st.header("Knowledge Base")
 
@@ -232,7 +317,7 @@ with st.sidebar:
             use_container_width=True,
         ):
 
-            pipeline = get_pipeline()
+            pipeline = get_pipeline(st.session_state.get("provider", "auto"))
 
             documents = []
 
@@ -343,7 +428,7 @@ else:
     # Make sure index is loaded
     try:
 
-        pipeline = get_pipeline()
+        pipeline = get_pipeline(st.session_state.get("provider", "auto"))
 
         if not pipeline.vector_store.documents:
             load_existing_index()
